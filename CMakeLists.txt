@@ -1,0 +1,30 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.4)
+if(COMMAND cmake_policy)
+  cmake_policy(SET CMP0003 NEW)
+endif(COMMAND cmake_policy)
+PROJECT(pdb)
+
+SET(SRC_LIST pdb.cpp
+PrintSymbol.cpp)
+
+#static library
+ADD_LIBRARY(pdb STATIC ${SRC_LIST})
+SET_TARGET_PROPERTIES(pdb PROPERTIES OUTPUT_NAME "pdb")
+SET_TARGET_PROPERTIES(pdb PROPERTIES CLEAN_DIRECT_OUTPUT 1)
+INSTALL(TARGETS pdb	ARCHIVE DESTINATION lib)
+
+#tool 
+SET(TOOL_SRC_LIST 
+dia2dump.cpp
+PrintSymbol.cpp
+regs.cpp)
+ADD_EXECUTABLE(pdbdump ${TOOL_SRC_LIST})
+#TARGET_LINK_LIBRARIES(pdbtool pdb)
+#ADD_DEPENDENCIES(pdbtool pdb)
+INSTALL(TARGETS pdbdump RUNTIME DESTINATION bin)
+
+
+
+
+
+

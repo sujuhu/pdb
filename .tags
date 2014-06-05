@@ -1,0 +1,1190 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ANYSIZE	.\struct\build\x86\mingw\release\include\struct\slist.h	13;"	d
+ANYSIZE	.\struct\build\x86\nmake\release\include\struct\slist.h	13;"	d
+ANYSIZE	.\struct\segmentree.h	9;"	d
+ASM_X86_CMPXCHG_H	.\struct\cmpxchg.h	2;"	d
+AddChildHashEntry	.\struct\hashtable.cpp	/^errno_t AddChildHashEntry($/;"	f
+AddRef	.\callback.h	/^    ULONG STDMETHODCALLTYPE AddRef() {$/;"	f	class:CCallback
+BTREE_H	.\struct\btree.h	2;"	d
+BTREE_KEYTYPE	.\struct\btree.h	212;"	d
+BTREE_KEYTYPE	.\struct\btree.h	223;"	d
+BTREE_KEYTYPE	.\struct\btree.h	235;"	d
+BTREE_TYPE_BITS	.\struct\btree.h	210;"	d
+BTREE_TYPE_BITS	.\struct\btree.h	221;"	d
+BTREE_TYPE_BITS	.\struct\btree.h	233;"	d
+BTREE_TYPE_GEO	.\struct\btree.h	211;"	d
+BTREE_TYPE_GEO	.\struct\btree.h	222;"	d
+BTREE_TYPE_GEO	.\struct\btree.h	234;"	d
+BTREE_TYPE_SUFFIX	.\struct\btree.h	209;"	d
+BTREE_TYPE_SUFFIX	.\struct\btree.h	220;"	d
+BTREE_TYPE_SUFFIX	.\struct\btree.h	232;"	d
+Blink	.\struct\build\x86\mingw\release\include\struct\hashtable.h	/^	struct _listentry_t *Blink;$/;"	m	struct:_listentry_t	typeref:struct:_listentry_t::_listentry_t
+Blink	.\struct\build\x86\nmake\release\include\struct\hashtable.h	/^	struct _listentry_t *Blink;$/;"	m	struct:_listentry_t	typeref:struct:_listentry_t::_listentry_t
+Blink	.\struct\hashtable.h	/^	struct _listentry_t *Blink;$/;"	m	struct:_listentry_t	typeref:struct:_listentry_t::_listentry_t
+BrotherEntry	.\struct\hashtable.cpp	/^  listentry_t  			BrotherEntry;$/;"	m	struct:_hashentry_t	file:
+BuildSolution	.\build.pl	/^sub BuildSolution {$/;"	s
+CCallback	.\callback.h	/^    CCallback() { m_nRefCount = 0; }$/;"	f	class:CCallback
+CCallback	.\callback.h	/^class CCallback : public IDiaLoadCallback2{$/;"	c
+CHECKTAG	.\utils.h	22;"	d
+CHECK_LOOPS	.\struct\rbtree_test.c	8;"	d	file:
+Child	.\struct\hashtable.cpp	/^  struct _hashentry_t*	Child;$/;"	m	struct:_hashentry_t	typeref:struct:_hashentry_t::_hashentry_t	file:
+CleanUp	.\build.pl	/^sub CleanUp {$/;"	s
+Cleanup	.\dia2dump.cpp	/^void Cleanup()$/;"	f
+ClearAvlTree	.\struct\avltree.cpp	/^void ClearAvlTree(avltree_t* tree)$/;"	f
+ClearHashTable	.\struct\hashtable.cpp	/^errno_t	ClearHashTable(hashtable_t* table)$/;"	f
+CloseHashTable	.\struct\hashtable.cpp	/^void CloseHashTable( hashtable_t* table )$/;"	f
+CopyFiles	.\build.pl	/^sub CopyFiles {$/;"	s
+CreateHashTable	.\struct\hashtable.cpp	/^errno_t CreateHashTable( uint32_t length, hashtable_t** hashtable )$/;"	f
+CreateSegmentTree	.\struct\segmentree.cpp	/^errno_t CreateSegmentTree(segmentree_t* tree, int min, int max)$/;"	f
+DECLARE_KFIFO	.\struct\kfifo.h	130;"	d
+DECLARE_KFIFO_PTR	.\struct\kfifo.h	122;"	d
+DEFINE_KFIFO	.\struct\kfifo.h	155;"	d
+DEFINE_KLIST	.\struct\klist.h	33;"	d
+DLIST_HEAD	.\struct\dlist.h	56;"	d
+DLIST_HEAD_INIT	.\struct\dlist.h	54;"	d
+Data	.\struct\hashtable.cpp	/^  uint8_t   			Data[1];      \/\/Ω⁄µ„ ˝æ›$/;"	m	struct:_hashentry_t	file:
+DataSize	.\struct\hashtable.cpp	/^  uint32_t   			DataSize;   \/\/Ω⁄µ„ ˝æ›$/;"	m	struct:_hashentry_t	file:
+DeleteFiles	.\build.pl	/^sub DeleteFiles {$/;"	s
+DumpAllDebugStreams	.\dia2dump.cpp	/^bool DumpAllDebugStreams(IDiaSession *pSession)$/;"	f
+DumpAllEnums	.\dia2dump.cpp	/^bool DumpAllEnums(IDiaSymbol *pGlobal)$/;"	f
+DumpAllFPO	.\dia2dump.cpp	/^bool DumpAllFPO(IDiaSession *pSession)$/;"	f
+DumpAllFiles	.\dia2dump.cpp	/^bool DumpAllFiles(IDiaSession *pSession, IDiaSymbol *pGlobal)$/;"	f
+DumpAllGlobals	.\dia2dump.cpp	/^bool DumpAllGlobals(IDiaSymbol *pGlobal)$/;"	f
+DumpAllInjectedSources	.\dia2dump.cpp	/^bool DumpAllInjectedSources(IDiaSession *pSession)$/;"	f
+DumpAllLines	.\dia2dump.cpp	/^bool DumpAllLines(IDiaSession *pSession, DWORD dwRVA, DWORD dwRange)$/;"	f
+DumpAllLines	.\dia2dump.cpp	/^bool DumpAllLines(IDiaSession *pSession, IDiaSymbol *pGlobal)$/;"	f
+DumpAllMods	.\dia2dump.cpp	/^bool DumpAllMods(IDiaSymbol *pGlobal)$/;"	f
+DumpAllOEMs	.\dia2dump.cpp	/^bool DumpAllOEMs(IDiaSymbol *pGlobal)$/;"	f
+DumpAllPdbInfo	.\dia2dump.cpp	/^void DumpAllPdbInfo(IDiaSession *pSession, IDiaSymbol *pGlobal)$/;"	f
+DumpAllPublics	.\dia2dump.cpp	/^bool DumpAllPublics(IDiaSymbol *pGlobal)$/;"	f
+DumpAllSecContribs	.\dia2dump.cpp	/^bool DumpAllSecContribs(IDiaSession *pSession)$/;"	f
+DumpAllSourceFiles	.\dia2dump.cpp	/^bool DumpAllSourceFiles(IDiaSession *pSession, IDiaSymbol *pGlobal)$/;"	f
+DumpAllSymbols	.\dia2dump.cpp	/^bool DumpAllSymbols(IDiaSymbol *pGlobal)$/;"	f
+DumpAllTypedefs	.\dia2dump.cpp	/^bool DumpAllTypedefs(IDiaSymbol *pGlobal)$/;"	f
+DumpAllTypes	.\dia2dump.cpp	/^bool DumpAllTypes(IDiaSymbol *pGlobal)$/;"	f
+DumpAllUDTs	.\dia2dump.cpp	/^bool DumpAllUDTs(IDiaSymbol *pGlobal)$/;"	f
+DumpAnnotations	.\dia2dump.cpp	/^bool DumpAnnotations(IDiaSession *pSession, DWORD dwRVA)$/;"	f
+DumpCompiland	.\dia2dump.cpp	/^bool DumpCompiland(IDiaSymbol *pGlobal, const wchar_t *szCompName)$/;"	f
+DumpFPO	.\dia2dump.cpp	/^bool DumpFPO(IDiaSession *pSession, DWORD dwRVA)$/;"	f
+DumpFPO	.\dia2dump.cpp	/^bool DumpFPO(IDiaSession *pSession, IDiaSymbol *pGlobal, const wchar_t *szSymbolName)$/;"	f
+DumpInjectedSource	.\dia2dump.cpp	/^bool DumpInjectedSource(IDiaSession *pSession, const wchar_t *szName)$/;"	f
+DumpLabel	.\dia2dump.cpp	/^bool DumpLabel(IDiaSession *pSession, DWORD dwRVA)$/;"	f
+DumpLines	.\dia2dump.cpp	/^bool DumpLines(IDiaSession *pSession, DWORD dwRVA)$/;"	f
+DumpLines	.\dia2dump.cpp	/^bool DumpLines(IDiaSession *pSession, IDiaSymbol *pGlobal, const wchar_t *szFuncName)$/;"	f
+DumpLinesForSourceFile	.\dia2dump.cpp	/^bool DumpLinesForSourceFile(IDiaSession *pSession, const wchar_t *szFileName, DWORD dwLine)$/;"	f
+DumpMapFromSrc	.\dia2dump.cpp	/^bool DumpMapFromSrc(IDiaSession *pSession, DWORD dwRVA)$/;"	f
+DumpMapToSrc	.\dia2dump.cpp	/^bool DumpMapToSrc(IDiaSession *pSession, DWORD dwRVA)$/;"	f
+DumpPublicSymbolsSorted	.\dia2dump.cpp	/^bool DumpPublicSymbolsSorted(IDiaSession *pSession, DWORD dwRVA, DWORD dwRange, bool bReverse)$/;"	f
+DumpSymbolWithChildren	.\dia2dump.cpp	/^bool DumpSymbolWithChildren(IDiaSymbol *pSymbol, const wchar_t *szChildname)$/;"	f
+DumpSymbolWithRVA	.\dia2dump.cpp	/^bool DumpSymbolWithRVA(IDiaSession *pSession, DWORD dwRVA, const wchar_t *szChildname)$/;"	f
+DumpSymbolsWithRegEx	.\dia2dump.cpp	/^bool DumpSymbolsWithRegEx(IDiaSymbol *pGlobal, const wchar_t *szRegEx, const wchar_t *szChildname)$/;"	f
+DumpType	.\dia2dump.cpp	/^bool DumpType(IDiaSymbol *pGlobal, const wchar_t *szRegEx)$/;"	f
+ENUM_CONTINUE	.\struct\build\x86\mingw\release\include\struct\hashtable.h	36;"	d
+ENUM_CONTINUE	.\struct\build\x86\nmake\release\include\struct\hashtable.h	36;"	d
+ENUM_CONTINUE	.\struct\hashtable.h	36;"	d
+ENUM_DELETE	.\struct\build\x86\mingw\release\include\struct\hashtable.h	37;"	d
+ENUM_DELETE	.\struct\build\x86\nmake\release\include\struct\hashtable.h	37;"	d
+ENUM_DELETE	.\struct\hashtable.h	37;"	d
+ENUM_STOP	.\struct\build\x86\mingw\release\include\struct\hashtable.h	35;"	d
+ENUM_STOP	.\struct\build\x86\nmake\release\include\struct\hashtable.h	35;"	d
+ENUM_STOP	.\struct\hashtable.h	35;"	d
+ENUM_ZIPNODE_ROUTINE	.\struct\build\x86\mingw\release\include\struct\hashtable.h	/^typedef int (*ENUM_ZIPNODE_ROUTINE)( $/;"	t
+ENUM_ZIPNODE_ROUTINE	.\struct\build\x86\nmake\release\include\struct\hashtable.h	/^typedef int (*ENUM_ZIPNODE_ROUTINE)( $/;"	t
+ENUM_ZIPNODE_ROUTINE	.\struct\hashtable.h	/^typedef int (*ENUM_ZIPNODE_ROUTINE)( $/;"	t
+Entry	.\struct\hashtable.cpp	/^  listentry_t  			Entry;$/;"	m	struct:_hashentry_t	file:
+EnumHashEntry	.\struct\hashtable.cpp	/^errno_t EnumHashEntry($/;"	f
+Error	.\build.pl	/^sub Error {$/;"	s
+FastEntry	.\struct\hashtable.cpp	/^  listentry_t  			FastEntry;$/;"	m	struct:_hashentry_t	file:
+FastList	.\struct\build\x86\mingw\release\include\struct\hashtable.h	/^	listentry_t	 FastList;		\/\/Ω⁄µ„øÏÀŸ√∂æŸ¡¥±Ì$/;"	m	struct:_hashtable_t
+FastList	.\struct\build\x86\nmake\release\include\struct\hashtable.h	/^	listentry_t	 FastList;		\/\/Ω⁄µ„øÏÀŸ√∂æŸ¡¥±Ì$/;"	m	struct:_hashtable_t
+FastList	.\struct\hashtable.h	/^	listentry_t	 FastList;		\/\/Ω⁄µ„øÏÀŸ√∂æŸ¡¥±Ì$/;"	m	struct:_hashtable_t
+FindAvlEntry	.\struct\avltree.cpp	/^avltree_t* FindAvlEntry(avltree_t* tree, uint32_t key)$/;"	f
+FindHashEntry	.\struct\hashtable.cpp	/^uint8_t*  FindHashEntry($/;"	f
+Flink	.\struct\build\x86\mingw\release\include\struct\hashtable.h	/^	struct _listentry_t *Flink;$/;"	m	struct:_listentry_t	typeref:struct:_listentry_t::_listentry_t
+Flink	.\struct\build\x86\nmake\release\include\struct\hashtable.h	/^	struct _listentry_t *Flink;$/;"	m	struct:_listentry_t	typeref:struct:_listentry_t::_listentry_t
+Flink	.\struct\hashtable.h	/^	struct _listentry_t *Flink;$/;"	m	struct:_listentry_t	typeref:struct:_listentry_t::_listentry_t
+GOLDEN_RATIO_PRIME	.\struct\hash.h	25;"	d
+GOLDEN_RATIO_PRIME	.\struct\hash.h	29;"	d
+GOLDEN_RATIO_PRIME_32	.\struct\hash.h	20;"	d
+GOLDEN_RATIO_PRIME_64	.\struct\hash.h	22;"	d
+GetChildHashEntryCount	.\struct\hashtable.cpp	/^int GetChildHashEntryCount(hashtable_t* table, uint32_t idNode)$/;"	f
+GetHashEntryCount	.\struct\hashtable.cpp	/^uint32_t GetHashEntryCount(hashtable_t* table)$/;"	f
+GetHeight	.\struct\avltree.cpp	/^int GetHeight(avltree_t* tree)$/;"	f
+GetMaxAvlEntry	.\struct\avltree.cpp	/^avltree_t* GetMaxAvlEntry(avltree_t* tree)$/;"	f
+GetMinAvlEntry	.\struct\avltree.cpp	/^avltree_t* GetMinAvlEntry(avltree_t* tree)$/;"	f
+GetTable	.\dia2dump.cpp	/^HRESULT GetTable(IDiaSession *pSession, REFIID iid, void **ppUnk)$/;"	f
+GetTable	.\pdb.cpp	/^HRESULT GetTable(IDiaSession *pSession, REFIID iid, void **ppUnk)$/;"	f
+HASH_BURKET_SIZE	.\struct\hash_map.h	6;"	d
+HASH_TABLE_H_	.\struct\build\x86\mingw\release\include\struct\hashtable.h	10;"	d
+HASH_TABLE_H_	.\struct\build\x86\nmake\release\include\struct\hashtable.h	10;"	d
+HASH_TABLE_H_	.\struct\hashtable.h	10;"	d
+HLIST_HEAD	.\struct\hlist.h	19;"	d
+HLIST_HEAD_INIT	.\struct\hlist.h	18;"	d
+HTABLE_INDEX	.\struct\hlist.h	179;"	d
+HashTable	.\struct\build\x86\mingw\release\include\struct\hashtable.h	/^	listentry_t*	 HashTable;		\/\/¿≠¡¥$/;"	m	struct:_hashtable_t
+HashTable	.\struct\build\x86\nmake\release\include\struct\hashtable.h	/^	listentry_t*	 HashTable;		\/\/¿≠¡¥$/;"	m	struct:_hashtable_t
+HashTable	.\struct\hashtable.h	/^	listentry_t*	 HashTable;		\/\/¿≠¡¥$/;"	m	struct:_hashtable_t
+INIT_HASH_TABLE	.\struct\hlist.h	176;"	d
+INIT_HLIST_HEAD	.\struct\hlist.h	20;"	d
+INIT_HLIST_NODE	.\struct\hlist.h	/^static inline void INIT_HLIST_NODE(hnode_t *h)$/;"	f
+INIT_KFIFO	.\struct\kfifo.h	136;"	d
+INT16_C	.\struct\typedef.h	109;"	d
+INT16_MAX	.\struct\typedef.h	69;"	d
+INT16_MIN	.\struct\typedef.h	65;"	d
+INT32_C	.\struct\typedef.h	110;"	d
+INT32_MAX	.\struct\typedef.h	70;"	d
+INT32_MIN	.\struct\typedef.h	66;"	d
+INT64_C	.\struct\typedef.h	157;"	d
+INT64_MAX	.\struct\typedef.h	142;"	d
+INT64_MIN	.\struct\typedef.h	141;"	d
+INT8_C	.\struct\typedef.h	108;"	d
+INT8_MAX	.\struct\typedef.h	68;"	d
+INT8_MIN	.\struct\typedef.h	64;"	d
+INTMAX_C	.\struct\typedef.h	159;"	d
+INTMAX_MAX	.\struct\typedef.h	154;"	d
+INTMAX_MIN	.\struct\typedef.h	153;"	d
+INTPTR_MAX	.\struct\typedef.h	104;"	d
+INTPTR_MAX	.\struct\typedef.h	98;"	d
+INTPTR_MIN	.\struct\typedef.h	103;"	d
+INTPTR_MIN	.\struct\typedef.h	99;"	d
+INT_FAST16_MAX	.\struct\typedef.h	91;"	d
+INT_FAST16_MIN	.\struct\typedef.h	87;"	d
+INT_FAST32_MAX	.\struct\typedef.h	92;"	d
+INT_FAST32_MIN	.\struct\typedef.h	88;"	d
+INT_FAST64_MAX	.\struct\typedef.h	150;"	d
+INT_FAST64_MIN	.\struct\typedef.h	149;"	d
+INT_FAST8_MAX	.\struct\typedef.h	90;"	d
+INT_FAST8_MIN	.\struct\typedef.h	86;"	d
+INT_LEAST16_MAX	.\struct\typedef.h	80;"	d
+INT_LEAST16_MIN	.\struct\typedef.h	76;"	d
+INT_LEAST32_MAX	.\struct\typedef.h	81;"	d
+INT_LEAST32_MIN	.\struct\typedef.h	77;"	d
+INT_LEAST64_MAX	.\struct\typedef.h	146;"	d
+INT_LEAST64_MIN	.\struct\typedef.h	145;"	d
+INT_LEAST8_MAX	.\struct\typedef.h	79;"	d
+INT_LEAST8_MIN	.\struct\typedef.h	75;"	d
+INVALID_PDB	.\pdb.cpp	7;"	d	file:
+InsertAvlEntry	.\struct\avltree.cpp	/^errno_t InsertAvlEntry($/;"	f
+InsertHashEntry	.\struct\hashtable.cpp	/^errno_t InsertHashEntry($/;"	f
+InsertSegment	.\struct\segmentree.cpp	/^errno_t InsertSegment(segmentree_t* tree, int line, int length)$/;"	f
+IterateFirstSegment	.\struct\segmentree.cpp	/^segment_t* IterateFirstSegment(segmentree_t* tree)$/;"	f
+IterateNextSegment	.\struct\segmentree.cpp	/^segment_t* IterateNextSegment(segmentree_t* tree, segment_t*previous)$/;"	f
+JHASH_INITVAL	.\struct\jhash.h	75;"	d
+KLIST_INIT	.\struct\klist.h	27;"	d
+KNODE_DEAD	.\struct\klist.c	45;"	d	file:
+KNODE_KLIST_MASK	.\struct\klist.c	46;"	d	file:
+LIB_SLIST_H_	.\struct\build\x86\mingw\release\include\struct\slist.h	6;"	d
+LIB_SLIST_H_	.\struct\build\x86\nmake\release\include\struct\slist.h	6;"	d
+LIB_SLIST_H_	.\struct\segmentree.h	2;"	d
+LIST_POISON1	.\struct\dlist.h	36;"	d
+LIST_POISON2	.\struct\dlist.h	37;"	d
+LLRotate	.\struct\avltree.cpp	/^avltree_t* LLRotate(avltree_t* tree)$/;"	f
+LOCK_PREFIX	.\struct\cmpxchg.h	165;"	d
+LONG_PER_U64	.\struct\btree.c	64;"	d	file:
+LRRotate	.\struct\avltree.cpp	/^avltree_t* LRRotate(avltree_t* tree)$/;"	f
+LoadAvlTree	.\struct\avltree.cpp	/^errno_t LoadAvlTree($/;"	f
+LoadDataFromPdb	.\dia2dump.cpp	/^bool LoadDataFromPdb($/;"	f
+LoadDataFromPdb	.\pdb.cpp	/^bool LoadDataFromPdb($/;"	f
+LoadHashTable	.\struct\hashtable.cpp	/^errno_t LoadHashTable(hashtable_t* table, FILE* file, int32_t size)$/;"	f
+MAP_H_KIMZHANG_	.\struct\map.h	2;"	d
+MAX	.\struct\avltree.cpp	8;"	d	file:
+MAX	.\struct\btree.c	48;"	d	file:
+MAXELEMS	.\PrintSymbol.h	5;"	d
+MAX_RVA_LINES_BYTES_RANGE	.\PrintSymbol.h	9;"	d
+MAX_TYPE_IN_DETAIL	.\PrintSymbol.h	8;"	d
+MakeTemp	.\build.pl	/^sub MakeTemp {$/;"	s
+MakeTgz	.\build.pl	/^sub MakeTgz {$/;"	s
+MapIa64Reg	.\regs.h	/^typedef struct MapIa64Reg{$/;"	s
+MapIa64Reg	.\regs.h	/^}MapIa64Reg;$/;"	t	typeref:struct:MapIa64Reg
+N	.\struct\rfifo.c	/^	int N;$/;"	m	struct:_rfifo_t	file:
+NAME_SIZE	.\pdb.cpp	116;"	d	file:
+NODES	.\struct\rbtree_test.c	6;"	d	file:
+NODESIZE	.\struct\btree.c	49;"	d	file:
+NotifyDebugDir	.\callback.h	/^    HRESULT STDMETHODCALLTYPE NotifyDebugDir($/;"	f	class:CCallback
+NotifyOpenDBG	.\callback.h	/^    HRESULT STDMETHODCALLTYPE NotifyOpenDBG($/;"	f	class:CCallback
+NotifyOpenPDB	.\callback.h	/^    HRESULT STDMETHODCALLTYPE NotifyOpenPDB($/;"	f	class:CCallback
+NumberOfBurkets	.\struct\build\x86\mingw\release\include\struct\hashtable.h	/^	int32_t		 NumberOfBurkets;	\/\/¿≠¡¥µƒ≥§∂»$/;"	m	struct:_hashtable_t
+NumberOfBurkets	.\struct\build\x86\nmake\release\include\struct\hashtable.h	/^	int32_t		 NumberOfBurkets;	\/\/¿≠¡¥µƒ≥§∂»$/;"	m	struct:_hashtable_t
+NumberOfBurkets	.\struct\hashtable.h	/^	int32_t		 NumberOfBurkets;	\/\/¿≠¡¥µƒ≥§∂»$/;"	m	struct:_hashtable_t
+NumberOfNode	.\struct\build\x86\mingw\release\include\struct\hashtable.h	/^	int32_t		 NumberOfNode;		\/\/Ω⁄µ„◊‹ ˝$/;"	m	struct:_hashtable_t
+NumberOfNode	.\struct\build\x86\nmake\release\include\struct\hashtable.h	/^	int32_t		 NumberOfNode;		\/\/Ω⁄µ„◊‹ ˝$/;"	m	struct:_hashtable_t
+NumberOfNode	.\struct\hashtable.h	/^	int32_t		 NumberOfNode;		\/\/Ω⁄µ„◊‹ ˝$/;"	m	struct:_hashtable_t
+OMAP_DATA	.\dia2dump.cpp	/^struct OMAP_DATA$/;"	s	file:
+PDBRENDER_H	.\PdbRender.h	11;"	d
+PERF_LOOPS	.\struct\rbtree_test.c	7;"	d	file:
+POISON_POINTER_DELTA	.\struct\dlist.h	26;"	d
+POISON_POINTER_DELTA	.\struct\dlist.h	28;"	d
+PTRDIFF_MAX	.\struct\typedef.h	118;"	d
+PTRDIFF_MAX	.\struct\typedef.h	121;"	d
+PTRDIFF_MIN	.\struct\typedef.h	117;"	d
+PTRDIFF_MIN	.\struct\typedef.h	120;"	d
+Parent	.\struct\hashtable.cpp	/^  struct _hashentry_t*	Parent;$/;"	m	struct:_hashentry_t	typeref:struct:_hashentry_t::_hashentry_t	file:
+ParseArg	.\dia2dump.cpp	/^bool ParseArg(int argc, wchar_t *argv[])$/;"	f
+PrintBound	.\PrintSymbol.cpp	/^void PrintBound(IDiaSymbol *pSymbol)$/;"	f
+PrintCompilandDetails	.\PrintSymbol.cpp	/^void PrintCompilandDetails(IDiaSymbol *pSymbol)$/;"	f
+PrintCompilandEnv	.\PrintSymbol.cpp	/^void PrintCompilandEnv(IDiaSymbol *pSymbol)$/;"	f
+PrintConst	.\PrintSymbol.cpp	/^void PrintConst(IDiaSymbol *pSymbol)$/;"	f
+PrintData	.\PrintSymbol.cpp	/^void PrintData(IDiaSymbol *pSymbol, DWORD dwIndent)$/;"	f
+PrintFrameData	.\PrintSymbol.cpp	/^void PrintFrameData(IDiaFrameData *pFrameData)$/;"	f
+PrintFunctionType	.\PrintSymbol.cpp	/^void PrintFunctionType(IDiaSymbol *pSymbol)$/;"	f
+PrintGeneric	.\PrintSymbol.h	/^template<class T> void PrintGeneric( T t ){$/;"	f
+PrintGlobalSymbol	.\PrintSymbol.cpp	/^void PrintGlobalSymbol(IDiaSymbol *pSymbol, pdb_global_t* global)$/;"	f
+PrintHelpOptions	.\dia2dump.cpp	/^void PrintHelpOptions()$/;"	f
+PrintLines	.\PrintSymbol.cpp	/^void PrintLines(IDiaEnumLineNumbers *pLines)$/;"	f
+PrintLines	.\PrintSymbol.cpp	/^void PrintLines(IDiaSession *pSession, IDiaSymbol *pFunction)$/;"	f
+PrintLocation	.\PrintSymbol.cpp	/^void PrintLocation(IDiaSymbol *pSymbol)$/;"	f
+PrintName	.\PrintSymbol.cpp	/^void PrintName(IDiaSymbol *pSymbol)$/;"	f
+PrintPropertyStorage	.\PrintSymbol.cpp	/^void PrintPropertyStorage(IDiaPropertyStorage *pPropertyStorage)$/;"	f
+PrintPublicSymbol	.\PrintSymbol.cpp	/^void PrintPublicSymbol(IDiaSymbol *pSymbol, pdb_public_t* public)$/;"	f
+PrintSecContribs	.\PrintSymbol.cpp	/^void PrintSecContribs(IDiaSectionContrib *pSegment)$/;"	f
+PrintSourceFile	.\PrintSymbol.cpp	/^void PrintSourceFile(IDiaSourceFile *pSource)$/;"	f
+PrintStreamData	.\PrintSymbol.cpp	/^void PrintStreamData(IDiaEnumDebugStreamData *pStream)$/;"	f
+PrintSymTag	.\PrintSymbol.cpp	/^void PrintSymTag(DWORD dwSymTag)$/;"	f
+PrintSymbol	.\PrintSymbol.cpp	/^void PrintSymbol(IDiaSymbol *pSymbol, DWORD dwIndent, pdb_symbol_t* symbol)$/;"	f
+PrintSymbolType	.\PrintSymbol.cpp	/^void PrintSymbolType(IDiaSymbol *pSymbol)$/;"	f
+PrintThunk	.\PrintSymbol.cpp	/^void PrintThunk(IDiaSymbol *pSymbol)$/;"	f
+PrintType	.\PrintSymbol.cpp	/^void PrintType(IDiaSymbol *pSymbol)$/;"	f
+PrintTypeInDetail	.\PrintSymbol.cpp	/^void PrintTypeInDetail(IDiaSymbol *pSymbol, DWORD dwIndent, pdb_udt_t* udt)$/;"	f
+PrintUDT	.\PrintSymbol.cpp	/^void PrintUDT(IDiaSymbol *pSymbol)$/;"	f
+PrintUdtKind	.\PrintSymbol.cpp	/^void PrintUdtKind(IDiaSymbol *pSymbol)$/;"	f
+PrintUndName	.\PrintSymbol.cpp	/^void PrintUndName(IDiaSymbol *pSymbol)$/;"	f
+PrintVariant	.\PrintSymbol.cpp	/^void PrintVariant(VARIANT var)$/;"	f
+QueryInterface	.\callback.h	/^    HRESULT STDMETHODCALLTYPE QueryInterface( REFIID rid, void **ppUnk ) {$/;"	f	class:CCallback
+RB_BLACK	.\struct\rbtree_augmented.h	88;"	d
+RB_CLEAR_NODE	.\struct\rbtree.h	61;"	d
+RB_DECLARE_CALLBACKS	.\struct\rbtree_augmented.h	53;"	d
+RB_EMPTY_NODE	.\struct\rbtree.h	59;"	d
+RB_EMPTY_ROOT	.\struct\rbtree.h	56;"	d
+RB_RED	.\struct\rbtree_augmented.h	87;"	d
+RB_ROOT	.\struct\rbtree.h	53;"	d
+RLRotate	.\struct\avltree.cpp	/^avltree_t* RLRotate(avltree_t* tree)$/;"	f
+RRRotate	.\struct\avltree.cpp	/^avltree_t* RRRotate(avltree_t* tree)$/;"	f
+RebalanceAvlTree	.\struct\avltree.cpp	/^avltree_t* RebalanceAvlTree(avltree_t* tree)$/;"	f
+Release	.\callback.h	/^    ULONG STDMETHODCALLTYPE Release() {$/;"	f	class:CCallback
+RemoveAvlEntry	.\struct\avltree.cpp	/^errno_t RemoveAvlEntry(avltree_t* tree, uint32_t min_key, avltree_t** new_tree)$/;"	f
+RemoveChildHashEntry	.\struct\hashtable.cpp	/^errno_t RemoveChildHashEntry($/;"	f
+RemoveHashEntry	.\struct\hashtable.cpp	/^errno_t RemoveHashEntry(hashtable_t* table, uint32_t idNode )$/;"	f
+RemoveSegment	.\struct\segmentree.cpp	/^errno_t RemoveSegment(segmentree_t* tree, int line)$/;"	f
+RestrictDBGAccess	.\callback.h	/^    HRESULT STDMETHODCALLTYPE RestrictDBGAccess()$/;"	f	class:CCallback
+RestrictOriginalPathAccess	.\callback.h	/^    HRESULT STDMETHODCALLTYPE RestrictOriginalPathAccess()     $/;"	f	class:CCallback
+RestrictReferencePathAccess	.\callback.h	/^    HRESULT STDMETHODCALLTYPE RestrictReferencePathAccess()$/;"	f	class:CCallback
+RestrictRegistryAccess	.\callback.h	/^    HRESULT STDMETHODCALLTYPE RestrictRegistryAccess()         $/;"	f	class:CCallback
+RestrictSymbolServerAccess	.\callback.h	/^    HRESULT STDMETHODCALLTYPE RestrictSymbolServerAccess()$/;"	f	class:CCallback
+RestrictSystemRootAccess	.\callback.h	/^    HRESULT STDMETHODCALLTYPE RestrictSystemRootAccess()$/;"	f	class:CCallback
+S	.\struct\segmentree.cpp	3;"	d	file:
+S16_C	.\struct\types.h	53;"	d
+S16_C	.\struct\types.h	64;"	d
+S32_C	.\struct\types.h	55;"	d
+S32_C	.\struct\types.h	66;"	d
+S64_C	.\struct\types.h	57;"	d
+S64_C	.\struct\types.h	68;"	d
+S8_C	.\struct\types.h	51;"	d
+S8_C	.\struct\types.h	62;"	d
+SIG_ATOMIC_MAX	.\struct\typedef.h	125;"	d
+SIG_ATOMIC_MIN	.\struct\typedef.h	124;"	d
+SIZE_MAX	.\struct\typedef.h	129;"	d
+SIZE_MAX	.\struct\typedef.h	131;"	d
+SLIST_HEAD	.\struct\slist.h	55;"	d
+SLIST_HEAD_INIT	.\struct\slist.h	54;"	d
+STRUCT_AVL_H_	.\struct\avltree.h	2;"	d
+STRUCT_AVL_H_	.\struct\build\x86\mingw\release\include\struct\avltree.h	2;"	d
+STRUCT_AVL_H_	.\struct\build\x86\nmake\release\include\struct\avltree.h	2;"	d
+STRUCT_KFIFO	.\struct\kfifo.h	81;"	d
+STRUCT_KFIFO_PTR	.\struct\kfifo.h	90;"	d
+STRUCT_KFIFO_REC_1	.\struct\kfifo.h	98;"	d
+STRUCT_KFIFO_REC_2	.\struct\kfifo.h	101;"	d
+SafeDRef	.\PrintSymbol.h	6;"	d
+SaveAvlTree	.\struct\avltree.cpp	/^errno_t SaveAvlTree(avltree_t* tree, FILE* file, int32_t* size)$/;"	f
+SaveHashTable	.\struct\hashtable.cpp	/^errno_t SaveHashTable(hashtable_t* table, FILE* file, int32_t* size)$/;"	f
+SzNameC7Reg	.\regs.cpp	/^const wchar_t* SzNameC7Reg(USHORT reg){$/;"	f
+SzNameC7Reg	.\regs.cpp	/^const wchar_t* SzNameC7Reg(USHORT reg, DWORD MachineType){$/;"	f
+TAG	.\struct\hashtable.cpp	8;"	d	file:
+U16_C	.\struct\types.h	54;"	d
+U16_C	.\struct\types.h	65;"	d
+U32_C	.\struct\types.h	56;"	d
+U32_C	.\struct\types.h	67;"	d
+U64_C	.\struct\types.h	58;"	d
+U64_C	.\struct\types.h	69;"	d
+U8_C	.\struct\types.h	52;"	d
+U8_C	.\struct\types.h	63;"	d
+UINT16_C	.\struct\typedef.h	113;"	d
+UINT16_MAX	.\struct\typedef.h	72;"	d
+UINT32_C	.\struct\typedef.h	114;"	d
+UINT32_MAX	.\struct\typedef.h	73;"	d
+UINT64_C	.\struct\typedef.h	158;"	d
+UINT64_MAX	.\struct\typedef.h	143;"	d
+UINT8_C	.\struct\typedef.h	112;"	d
+UINT8_MAX	.\struct\typedef.h	71;"	d
+UINTMAX_C	.\struct\typedef.h	160;"	d
+UINTMAX_MAX	.\struct\typedef.h	155;"	d
+UINTPTR_MAX	.\struct\typedef.h	100;"	d
+UINTPTR_MAX	.\struct\typedef.h	105;"	d
+UINT_FAST16_MAX	.\struct\typedef.h	94;"	d
+UINT_FAST32_MAX	.\struct\typedef.h	95;"	d
+UINT_FAST64_MAX	.\struct\typedef.h	151;"	d
+UINT_FAST8_MAX	.\struct\typedef.h	93;"	d
+UINT_LEAST16_MAX	.\struct\typedef.h	83;"	d
+UINT_LEAST32_MAX	.\struct\typedef.h	84;"	d
+UINT_LEAST64_MAX	.\struct\typedef.h	147;"	d
+UINT_LEAST8_MAX	.\struct\typedef.h	82;"	d
+UTILS_H	.\utils.h	11;"	d
+UpdateSegmentTree	.\struct\segmentree.cpp	/^errno_t UpdateSegmentTree(segmentree_t* tree)$/;"	f
+WIN32_LEAN_AND_MEAN	.\stdafx.h	9;"	d
+WIN32_LEAN_AND_MEAN	.\utils.cpp	10;"	d	file:
+WINT_MAX	.\struct\typedef.h	139;"	d
+WINT_MIN	.\struct\typedef.h	138;"	d
+_AC	.\struct\dlist.h	12;"	d
+_AC	.\struct\dlist.h	16;"	d
+_ASM_GENERIC_INT_LL64_H	.\struct\types.h	8;"	d
+_AT	.\struct\dlist.h	13;"	d
+_AT	.\struct\dlist.h	17;"	d
+_CONTAIN_H_KIMZHANG	.\struct\contain.h	2;"	d
+_CopyMemory	.\struct\hashtable.cpp	15;"	d	file:
+_CopyMemory	.\struct\hashtable.cpp	20;"	d	file:
+_DLIST_H_KIMZHANG	.\struct\dlist.h	2;"	d
+_ERRCODE_DEFINED	.\struct\avltree.h	9;"	d
+_ERRCODE_DEFINED	.\struct\build\x86\mingw\release\include\struct\avltree.h	9;"	d
+_ERRCODE_DEFINED	.\struct\build\x86\mingw\release\include\struct\hashtable.h	17;"	d
+_ERRCODE_DEFINED	.\struct\build\x86\mingw\release\include\struct\slist.h	17;"	d
+_ERRCODE_DEFINED	.\struct\build\x86\nmake\release\include\struct\avltree.h	9;"	d
+_ERRCODE_DEFINED	.\struct\build\x86\nmake\release\include\struct\hashtable.h	17;"	d
+_ERRCODE_DEFINED	.\struct\build\x86\nmake\release\include\struct\slist.h	17;"	d
+_ERRCODE_DEFINED	.\struct\hashtable.h	17;"	d
+_ERRCODE_DEFINED	.\struct\segmentree.h	13;"	d
+_FreeMemory	.\struct\hashtable.cpp	14;"	d	file:
+_FreeMemory	.\struct\hashtable.cpp	19;"	d	file:
+_GetZipperNode	.\struct\hashtable.cpp	/^hashentry_t *_GetZipperNode(hashtable_t* table, uint32_t idNode)$/;"	f
+_HASH_MAP_H_KIMZHANG	.\struct\hash_map.h	2;"	d
+_HLIST_H_KIMZHANG	.\struct\hlist.h	2;"	d
+_LINUX_HASH_H	.\struct\hash.h	2;"	d
+_LINUX_JHASH_H	.\struct\jhash.h	2;"	d
+_LINUX_KFIFO_H	.\struct\kfifo.h	23;"	d
+_LINUX_KLIST_H	.\struct\klist.h	13;"	d
+_LINUX_RBTREE_AUGMENTED_H	.\struct\rbtree_augmented.h	25;"	d
+_MallocMemory	.\struct\hashtable.cpp	11;"	d	file:
+_MallocMemory	.\struct\hashtable.cpp	17;"	d	file:
+_QUEUE_FIFO_H_	.\struct\fifo.h	2;"	d
+_QUEUE_H_KIMZHANG	.\struct\queue.h	2;"	d
+_RBTREE_H	.\struct\rbtree.h	30;"	d
+_SLIST_H_KIMZHANG	.\struct\slist.h	2;"	d
+_STACK_H_KIMZHANG	.\struct\stack.h	2;"	d
+_TYPE_DEFINE_H_	.\struct\typedef.h	2;"	d
+_ZeroMemory	.\struct\hashtable.cpp	13;"	d	file:
+_ZeroMemory	.\struct\hashtable.cpp	18;"	d	file:
+__AC	.\struct\dlist.h	15;"	d
+__KFIFO_PEEK	.\struct\kfifo.c	407;"	d	file:
+__KFIFO_POKE	.\struct\kfifo.c	427;"	d	file:
+__PERF_INTLIST_H	.\struct\intlist.h	2;"	d
+__PERF_RBLIST_H	.\struct\rblist.h	2;"	d
+__PERF_STRLIST_H	.\struct\strlist.h	2;"	d
+__STRUCT_KFIFO	.\struct\kfifo.h	75;"	d
+__STRUCT_KFIFO_COMMON	.\struct\kfifo.h	66;"	d
+__STRUCT_KFIFO_PTR	.\struct\kfifo.h	84;"	d
+__X86_CASE_B	.\struct\cmpxchg.h	15;"	d
+__X86_CASE_L	.\struct\cmpxchg.h	17;"	d
+__X86_CASE_Q	.\struct\cmpxchg.h	19;"	d
+__X86_CASE_Q	.\struct\cmpxchg.h	21;"	d
+__X86_CASE_W	.\struct\cmpxchg.h	16;"	d
+__btree_for_each	.\struct\btree.c	/^static size_t __btree_for_each(struct btree_head *head, struct btree_geo *geo,$/;"	f	file:
+__btree_init	.\struct\btree.c	/^static inline void __btree_init(struct btree_head *head)$/;"	f	file:
+__cmpxchg	.\struct\cmpxchg.h	166;"	d
+__get_unaligned_cpu32	.\struct\jhash.h	/^static inline u32 __get_unaligned_cpu32(const void *p)$/;"	f
+__hlist_del	.\struct\hlist.h	/^static inline void __hlist_del(hnode_t *n)$/;"	f
+__is_kfifo_ptr	.\struct\kfifo.h	115;"	d
+__jhash_final	.\struct\jhash.h	63;"	d
+__jhash_mix	.\struct\jhash.h	52;"	d
+__kfifo	.\struct\kfifo.h	/^struct __kfifo {$/;"	s
+__kfifo_alloc	.\struct\kfifo.c	/^EXPORT_SYMBOL(__kfifo_alloc);$/;"	v
+__kfifo_alloc	.\struct\kfifo.c	/^int __kfifo_alloc(struct __kfifo *fifo, unsigned int size,$/;"	f
+__kfifo_dma_in_finish_r	.\struct\kfifo.c	/^EXPORT_SYMBOL(__kfifo_dma_in_finish_r);$/;"	v
+__kfifo_dma_in_finish_r	.\struct\kfifo.c	/^void __kfifo_dma_in_finish_r(struct __kfifo *fifo,$/;"	f
+__kfifo_dma_in_prepare	.\struct\kfifo.c	/^EXPORT_SYMBOL(__kfifo_dma_in_prepare);$/;"	v
+__kfifo_dma_in_prepare	.\struct\kfifo.c	/^unsigned int __kfifo_dma_in_prepare(struct __kfifo *fifo,$/;"	f
+__kfifo_dma_in_prepare_r	.\struct\kfifo.c	/^EXPORT_SYMBOL(__kfifo_dma_in_prepare_r);$/;"	v
+__kfifo_dma_in_prepare_r	.\struct\kfifo.c	/^unsigned int __kfifo_dma_in_prepare_r(struct __kfifo *fifo,$/;"	f
+__kfifo_dma_out_finish_r	.\struct\kfifo.c	/^EXPORT_SYMBOL(__kfifo_dma_out_finish_r);$/;"	v
+__kfifo_dma_out_finish_r	.\struct\kfifo.c	/^void __kfifo_dma_out_finish_r(struct __kfifo *fifo, size_t recsize)$/;"	f
+__kfifo_dma_out_prepare	.\struct\kfifo.c	/^EXPORT_SYMBOL(__kfifo_dma_out_prepare);$/;"	v
+__kfifo_dma_out_prepare	.\struct\kfifo.c	/^unsigned int __kfifo_dma_out_prepare(struct __kfifo *fifo,$/;"	f
+__kfifo_dma_out_prepare_r	.\struct\kfifo.c	/^EXPORT_SYMBOL(__kfifo_dma_out_prepare_r);$/;"	v
+__kfifo_dma_out_prepare_r	.\struct\kfifo.c	/^unsigned int __kfifo_dma_out_prepare_r(struct __kfifo *fifo,$/;"	f
+__kfifo_free	.\struct\kfifo.c	/^EXPORT_SYMBOL(__kfifo_free);$/;"	v
+__kfifo_free	.\struct\kfifo.c	/^void __kfifo_free(struct __kfifo *fifo)$/;"	f
+__kfifo_from_user	.\struct\kfifo.c	/^EXPORT_SYMBOL(__kfifo_from_user);$/;"	v
+__kfifo_from_user	.\struct\kfifo.c	/^int __kfifo_from_user(struct __kfifo *fifo, const void __user *from,$/;"	f
+__kfifo_from_user_r	.\struct\kfifo.c	/^EXPORT_SYMBOL(__kfifo_from_user_r);$/;"	v
+__kfifo_from_user_r	.\struct\kfifo.c	/^int __kfifo_from_user_r(struct __kfifo *fifo, const void __user *from,$/;"	f
+__kfifo_in	.\struct\kfifo.c	/^EXPORT_SYMBOL(__kfifo_in);$/;"	v
+__kfifo_in	.\struct\kfifo.c	/^unsigned int __kfifo_in(struct __kfifo *fifo,$/;"	f
+__kfifo_in_r	.\struct\kfifo.c	/^EXPORT_SYMBOL(__kfifo_in_r);$/;"	v
+__kfifo_in_r	.\struct\kfifo.c	/^unsigned int __kfifo_in_r(struct __kfifo *fifo, const void *buf,$/;"	f
+__kfifo_init	.\struct\kfifo.c	/^EXPORT_SYMBOL(__kfifo_init);$/;"	v
+__kfifo_init	.\struct\kfifo.c	/^int __kfifo_init(struct __kfifo *fifo, void *buffer,$/;"	f
+__kfifo_int_must_check_helper	.\struct\kfifo.h	/^__kfifo_int_must_check_helper(int val)$/;"	f
+__kfifo_len_r	.\struct\kfifo.c	/^EXPORT_SYMBOL(__kfifo_len_r);$/;"	v
+__kfifo_len_r	.\struct\kfifo.c	/^unsigned int __kfifo_len_r(struct __kfifo *fifo, size_t recsize)$/;"	f
+__kfifo_max_r	.\struct\kfifo.c	/^EXPORT_SYMBOL(__kfifo_max_r);$/;"	v
+__kfifo_max_r	.\struct\kfifo.c	/^unsigned int __kfifo_max_r(unsigned int len, size_t recsize)$/;"	f
+__kfifo_out	.\struct\kfifo.c	/^EXPORT_SYMBOL(__kfifo_out);$/;"	v
+__kfifo_out	.\struct\kfifo.c	/^unsigned int __kfifo_out(struct __kfifo *fifo,$/;"	f
+__kfifo_out_peek	.\struct\kfifo.c	/^EXPORT_SYMBOL(__kfifo_out_peek);$/;"	v
+__kfifo_out_peek	.\struct\kfifo.c	/^unsigned int __kfifo_out_peek(struct __kfifo *fifo,$/;"	f
+__kfifo_out_peek_r	.\struct\kfifo.c	/^EXPORT_SYMBOL(__kfifo_out_peek_r);$/;"	v
+__kfifo_out_peek_r	.\struct\kfifo.c	/^unsigned int __kfifo_out_peek_r(struct __kfifo *fifo, void *buf,$/;"	f
+__kfifo_out_r	.\struct\kfifo.c	/^EXPORT_SYMBOL(__kfifo_out_r);$/;"	v
+__kfifo_out_r	.\struct\kfifo.c	/^unsigned int __kfifo_out_r(struct __kfifo *fifo, void *buf,$/;"	f
+__kfifo_peek_n	.\struct\kfifo.c	/^static unsigned int __kfifo_peek_n(struct __kfifo *fifo, size_t recsize)$/;"	f	file:
+__kfifo_poke_n	.\struct\kfifo.c	/^static void __kfifo_poke_n(struct __kfifo *fifo, unsigned int n, size_t recsize)$/;"	f	file:
+__kfifo_skip_r	.\struct\kfifo.c	/^EXPORT_SYMBOL(__kfifo_skip_r);$/;"	v
+__kfifo_skip_r	.\struct\kfifo.c	/^void __kfifo_skip_r(struct __kfifo *fifo, size_t recsize)$/;"	f
+__kfifo_to_user	.\struct\kfifo.c	/^EXPORT_SYMBOL(__kfifo_to_user);$/;"	v
+__kfifo_to_user	.\struct\kfifo.c	/^int __kfifo_to_user(struct __kfifo *fifo, void __user *to,$/;"	f
+__kfifo_to_user_r	.\struct\kfifo.c	/^EXPORT_SYMBOL(__kfifo_to_user_r);$/;"	v
+__kfifo_to_user_r	.\struct\kfifo.c	/^int __kfifo_to_user_r(struct __kfifo *fifo, void __user *to,$/;"	f
+__kfifo_uint_must_check_helper	.\struct\kfifo.h	/^__kfifo_uint_must_check_helper(unsigned int val)$/;"	f
+__list_add	.\struct\dlist.h	/^static inline void __list_add(dnode_t *entry, dnode_t *prev, dnode_t *next)$/;"	f
+__list_cut_position	.\struct\dlist.h	/^void __list_cut_position(dlist_t *list, dlist_t *head, dnode_t *entry)$/;"	f
+__list_for_each	.\struct\dlist.h	359;"	d
+__list_remove	.\struct\dlist.h	/^static inline void __list_remove(dnode_t * prev, dnode_t* next)$/;"	f
+__list_remove_entry	.\struct\dlist.h	/^static inline void __list_remove_entry(dnode_t *entry)$/;"	f
+__list_splice	.\struct\dlist.h	/^static inline void __list_splice($/;"	f
+__packed	.\struct\jhash.h	/^struct __una_u32 { u32 x; } __packed;$/;"	v	typeref:struct:__una_u32
+__raw_cmpxchg	.\struct\cmpxchg.h	149;"	d
+__raw_cmpxchg	.\struct\cmpxchg.h	90;"	d
+__rb_change_child	.\struct\rbtree_augmented.h	/^__rb_change_child(struct rb_node *old, struct rb_node *new,$/;"	f
+__rb_color	.\struct\rbtree_augmented.h	92;"	d
+__rb_erase_color	.\struct\rbtree.c	/^__rb_erase_color(struct rb_node *parent, struct rb_root *root,$/;"	f
+__rb_insert	.\struct\rbtree.c	/^__rb_insert(struct rb_node *node, struct rb_root *root,$/;"	f
+__rb_insert_augmented	.\struct\rbtree.c	/^void __rb_insert_augmented(struct rb_node *node, struct rb_root *root,$/;"	f
+__rb_is_black	.\struct\rbtree_augmented.h	93;"	d
+__rb_is_red	.\struct\rbtree_augmented.h	94;"	d
+__rb_parent	.\struct\rbtree_augmented.h	90;"	d
+__rb_parent_color	.\struct\rbtree.h	/^	unsigned long  __rb_parent_color;$/;"	m	struct:rb_node
+__rb_rotate_set_parents	.\struct\rbtree.c	/^__rb_rotate_set_parents(struct rb_node *old, struct rb_node *new,$/;"	f
+__s16	.\struct\types.h	/^typedef signed short __s16;$/;"	t
+__s32	.\struct\types.h	/^typedef signed int __s32;$/;"	t
+__s64	.\struct\types.h	/^__extension__ typedef signed long long __s64;$/;"	t
+__s64	.\struct\types.h	/^typedef signed long long __s64;$/;"	t
+__s8	.\struct\types.h	/^typedef signed char __s8;$/;"	t
+__u16	.\struct\types.h	/^typedef unsigned short __u16;$/;"	t
+__u32	.\struct\types.h	/^typedef unsigned int __u32;$/;"	t
+__u64	.\struct\types.h	/^__extension__ typedef unsigned long long __u64;$/;"	t
+__u64	.\struct\types.h	/^typedef unsigned long long __u64;$/;"	t
+__u8	.\struct\types.h	/^typedef unsigned char __u8;$/;"	t
+__una_u32	.\struct\jhash.h	/^struct __una_u32 { u32 x; } __packed;$/;"	s
+__xchg_op	.\struct\cmpxchg.h	31;"	d
+__xchg_op	.\struct\cmpxchg.h	69;"	d
+_avltree_t	.\struct\avltree.h	/^typedef struct _avltree_t$/;"	s
+_avltree_t	.\struct\build\x86\mingw\release\include\struct\avltree.h	/^typedef struct _avltree_t$/;"	s
+_avltree_t	.\struct\build\x86\nmake\release\include\struct\avltree.h	/^typedef struct _avltree_t$/;"	s
+_fifo	.\struct\fifo.h	/^typedef struct _fifo$/;"	s
+_hash_map	.\struct\hash_map.h	/^typedef struct _hash_map$/;"	s
+_hash_map_node	.\struct\hash_map.h	/^typedef struct _hash_map_node$/;"	s
+_hashentry_t	.\struct\hashtable.cpp	/^typedef struct _hashentry_t$/;"	s	file:
+_hashtable_t	.\struct\build\x86\mingw\release\include\struct\hashtable.h	/^typedef struct _hashtable_t$/;"	s
+_hashtable_t	.\struct\build\x86\nmake\release\include\struct\hashtable.h	/^typedef struct _hashtable_t$/;"	s
+_hashtable_t	.\struct\hashtable.h	/^typedef struct _hashtable_t$/;"	s
+_listentry_t	.\struct\build\x86\mingw\release\include\struct\hashtable.h	/^typedef struct _listentry_t {$/;"	s
+_listentry_t	.\struct\build\x86\nmake\release\include\struct\hashtable.h	/^typedef struct _listentry_t {$/;"	s
+_listentry_t	.\struct\hashtable.h	/^typedef struct _listentry_t {$/;"	s
+_map_node	.\struct\map.h	/^typedef struct _map_node$/;"	s
+_node_t	.\struct\example.cpp	/^typedef struct _node_t$/;"	s	file:
+_pdb_enum	.\pdb.cpp	/^typedef struct _pdb_enum$/;"	s	file:
+_pdb_global	.\pdb.cpp	/^typedef struct _pdb_global {$/;"	s	file:
+_pdb_module	.\pdb.cpp	/^typedef struct _pdb_module{$/;"	s	file:
+_pdb_public	.\pdb.cpp	/^typedef struct _pdb_public$/;"	s	file:
+_pdb_symbol	.\pdb.cpp	/^typedef struct _pdb_symbol $/;"	s	file:
+_pdb_t	.\pdb.cpp	/^typedef struct _pdb_t {$/;"	s	file:
+_pdb_udt	.\pdb.cpp	/^typedef struct _pdb_udt{$/;"	s	file:
+_rfifo_t	.\struct\rfifo.c	/^typedef struct _rfifo_t$/;"	s	file:
+_segment_t	.\struct\segmentree.cpp	/^typedef struct _segment_t$/;"	s	file:
+_segmentree_t	.\struct\segmentree.cpp	/^typedef struct _segmentree_t$/;"	s	file:
+_slist_t	.\struct\build\x86\mingw\release\include\struct\slist.h	/^typedef struct _slist_t {$/;"	s
+_slist_t	.\struct\build\x86\nmake\release\include\struct\slist.h	/^typedef struct _slist_t {$/;"	s
+_snode_t	.\struct\build\x86\mingw\release\include\struct\slist.h	/^typedef struct _snode_t {$/;"	s
+_snode_t	.\struct\build\x86\nmake\release\include\struct\slist.h	/^typedef struct _snode_t {$/;"	s
+_snprintf	.\struct\example.cpp	20;"	d	file:
+_snwprintf	.\struct\example.cpp	21;"	d	file:
+a	.\struct\segmentree.cpp	/^int a[2*S];$/;"	v
+abs	.\struct\segmentree.cpp	/^int abs(int x)$/;"	f
+add_head	.\struct\klist.c	/^static void add_head(struct klist *k, struct klist_node *n)$/;"	f	file:
+add_tail	.\struct\klist.c	/^static void add_tail(struct klist *k, struct klist_node *n)$/;"	f	file:
+augment_recompute	.\struct\rbtree_test.c	/^static inline u32 augment_recompute(struct test_node *node)$/;"	f	file:
+augmented	.\struct\rbtree_test.c	/^	u32 augmented;$/;"	m	struct:test_node	file:
+avl	.\struct\rfifo.c	/^	int avl;$/;"	m	struct:_rfifo_t	file:
+avltree_t	.\struct\avltree.h	/^}avltree_t;$/;"	t	typeref:struct:_avltree_t
+avltree_t	.\struct\build\x86\mingw\release\include\struct\avltree.h	/^}avltree_t;$/;"	t	typeref:struct:_avltree_t
+avltree_t	.\struct\build\x86\nmake\release\include\struct\avltree.h	/^}avltree_t;$/;"	t	typeref:struct:_avltree_t
+balance_factor	.\struct\avltree.h	/^	int 	balance_factor;				\/\/Âπ≥Ë°°Âõ†Â≠ê = Â∑¶Â≠êÊ†ëÁöÑÈ´òÂ∫¶ - Âè≥Â≠êÊ†ëÁöÑÈ´òÂ∫¶$/;"	m	struct:_avltree_t
+balance_factor	.\struct\build\x86\mingw\release\include\struct\avltree.h	/^	int 	balance_factor;				\/\/Âπ≥Ë°°Âõ†Â≠ê = Â∑¶Â≠êÊ†ëÁöÑÈ´òÂ∫¶ - Âè≥Â≠êÊ†ëÁöÑÈ´òÂ∫¶$/;"	m	struct:_avltree_t
+balance_factor	.\struct\build\x86\nmake\release\include\struct\avltree.h	/^	int 	balance_factor;				\/\/Âπ≥Ë°°Âõ†Â≠ê = Â∑¶Â≠êÊ†ëÁöÑÈ´òÂ∫¶ - Âè≥Â≠êÊ†ëÁöÑÈ´òÂ∫¶$/;"	m	struct:_avltree_t
+bkey	.\struct\btree.c	/^static unsigned long *bkey(struct btree_geo *geo, unsigned long *node, int n)$/;"	f	file:
+black_path_count	.\struct\rbtree_test.c	/^static int black_path_count(struct rb_node *rb)$/;"	f	file:
+btree_alloc	.\struct\btree.c	/^EXPORT_SYMBOL_GPL(btree_alloc);$/;"	v
+btree_alloc	.\struct\btree.c	/^void *btree_alloc(gfp_t gfp_mask, void *pool_data)$/;"	f
+btree_cachep	.\struct\btree.c	/^static struct kmem_cache *btree_cachep;$/;"	v	typeref:struct:kmem_cache	file:
+btree_destroy	.\struct\btree.c	/^EXPORT_SYMBOL_GPL(btree_destroy);$/;"	v
+btree_destroy	.\struct\btree.c	/^void btree_destroy(struct btree_head *head)$/;"	f
+btree_for_each_safe32	.\struct\btree.h	226;"	d
+btree_for_each_safe64	.\struct\btree.h	238;"	d
+btree_for_each_safel	.\struct\btree.h	215;"	d
+btree_free	.\struct\btree.c	/^EXPORT_SYMBOL_GPL(btree_free);$/;"	v
+btree_free	.\struct\btree.c	/^void btree_free(void *element, void *pool_data)$/;"	f
+btree_geo	.\struct\btree.c	/^struct btree_geo {$/;"	s	file:
+btree_geo128	.\struct\btree.c	/^EXPORT_SYMBOL_GPL(btree_geo128);$/;"	v
+btree_geo128	.\struct\btree.c	/^struct btree_geo btree_geo128 = {$/;"	v	typeref:struct:btree_geo
+btree_geo32	.\struct\btree.c	/^EXPORT_SYMBOL_GPL(btree_geo32);$/;"	v
+btree_geo32	.\struct\btree.c	/^struct btree_geo btree_geo32 = {$/;"	v	typeref:struct:btree_geo
+btree_geo64	.\struct\btree.c	/^EXPORT_SYMBOL_GPL(btree_geo64);$/;"	v
+btree_geo64	.\struct\btree.c	/^struct btree_geo btree_geo64 = {$/;"	v	typeref:struct:btree_geo
+btree_get_prev	.\struct\btree.c	/^EXPORT_SYMBOL_GPL(btree_get_prev);$/;"	v
+btree_get_prev	.\struct\btree.c	/^void *btree_get_prev(struct btree_head *head, struct btree_geo *geo,$/;"	f
+btree_grim_visitor	.\struct\btree.c	/^EXPORT_SYMBOL_GPL(btree_grim_visitor);$/;"	v
+btree_grim_visitor	.\struct\btree.c	/^size_t btree_grim_visitor(struct btree_head *head, struct btree_geo *geo,$/;"	f
+btree_grow	.\struct\btree.c	/^static int btree_grow(struct btree_head *head, struct btree_geo *geo,$/;"	f	file:
+btree_head	.\struct\btree.h	/^struct btree_head {$/;"	s
+btree_init	.\struct\btree.c	/^EXPORT_SYMBOL_GPL(btree_init);$/;"	v
+btree_init	.\struct\btree.c	/^int btree_init(struct btree_head *head)$/;"	f
+btree_init_mempool	.\struct\btree.c	/^EXPORT_SYMBOL_GPL(btree_init_mempool);$/;"	v
+btree_init_mempool	.\struct\btree.c	/^void btree_init_mempool(struct btree_head *head, mempool_t *mempool)$/;"	f
+btree_insert	.\struct\btree.c	/^EXPORT_SYMBOL_GPL(btree_insert);$/;"	v
+btree_insert	.\struct\btree.c	/^int btree_insert(struct btree_head *head, struct btree_geo *geo,$/;"	f
+btree_insert_level	.\struct\btree.c	/^static int btree_insert_level(struct btree_head *head, struct btree_geo *geo,$/;"	f	file:
+btree_last	.\struct\btree.c	/^EXPORT_SYMBOL_GPL(btree_last);$/;"	v
+btree_last	.\struct\btree.c	/^void *btree_last(struct btree_head *head, struct btree_geo *geo,$/;"	f
+btree_lookup	.\struct\btree.c	/^EXPORT_SYMBOL_GPL(btree_lookup);$/;"	v
+btree_lookup	.\struct\btree.c	/^void *btree_lookup(struct btree_head *head, struct btree_geo *geo,$/;"	f
+btree_merge	.\struct\btree.c	/^EXPORT_SYMBOL_GPL(btree_merge);$/;"	v
+btree_merge	.\struct\btree.c	/^int btree_merge(struct btree_head *target, struct btree_head *victim,$/;"	f
+btree_module_exit	.\struct\btree.c	/^module_exit(btree_module_exit);$/;"	v
+btree_module_exit	.\struct\btree.c	/^static void __exit btree_module_exit(void)$/;"	f	file:
+btree_module_init	.\struct\btree.c	/^module_init(btree_module_init);$/;"	v
+btree_module_init	.\struct\btree.c	/^static int __init btree_module_init(void)$/;"	f	file:
+btree_node_alloc	.\struct\btree.c	/^static unsigned long *btree_node_alloc(struct btree_head *head, gfp_t gfp)$/;"	f	file:
+btree_remove	.\struct\btree.c	/^EXPORT_SYMBOL_GPL(btree_remove);$/;"	v
+btree_remove	.\struct\btree.c	/^void *btree_remove(struct btree_head *head, struct btree_geo *geo,$/;"	f
+btree_remove_level	.\struct\btree.c	/^static void *btree_remove_level(struct btree_head *head, struct btree_geo *geo,$/;"	f	file:
+btree_shrink	.\struct\btree.c	/^static void btree_shrink(struct btree_head *head, struct btree_geo *geo)$/;"	f	file:
+btree_update	.\struct\btree.c	/^EXPORT_SYMBOL_GPL(btree_update);$/;"	v
+btree_update	.\struct\btree.c	/^int btree_update(struct btree_head *head, struct btree_geo *geo,$/;"	f
+btree_visitor	.\struct\btree.c	/^EXPORT_SYMBOL_GPL(btree_visitor);$/;"	v
+btree_visitor	.\struct\btree.c	/^size_t btree_visitor(struct btree_head *head, struct btree_geo *geo,$/;"	f
+burkets	.\struct\hash_map.h	/^	hlist_t burkets[HASH_BURKET_SIZE];$/;"	m	struct:_hash_map
+bval	.\struct\btree.c	/^static void *bval(struct btree_geo *geo, unsigned long *node, int n)$/;"	f	file:
+check	.\struct\rbtree_test.c	/^static void check(int nr_nodes)$/;"	f	file:
+check_augmented	.\struct\rbtree_test.c	/^static void check_augmented(int nr_nodes)$/;"	f	file:
+clearpair	.\struct\btree.c	/^static void clearpair(struct btree_geo *geo, unsigned long *node, int n)$/;"	f	file:
+cmp	.\struct\segmentree.cpp	/^bool cmp(const lines &x,const lines &y)$/;"	f
+cmpIa64regSz	.\regs.cpp	/^int cmpIa64regSz(const void *pv1, const void *pv2) {$/;"	f
+cmpxchg	.\struct\cmpxchg.h	169;"	d
+container_of	.\struct\contain.h	6;"	d
+copy	.\struct\rbtree_augmented.h	/^	void (*copy)(struct rb_node *old, struct rb_node *new);$/;"	m	struct:rb_augment_callbacks
+count	.\struct\build\x86\mingw\release\include\struct\slist.h	/^	int32_t count;	$/;"	m	struct:_slist_t
+count	.\struct\build\x86\nmake\release\include\struct\slist.h	/^	int32_t count;	$/;"	m	struct:_slist_t
+current	.\struct\build\x86\mingw\release\include\struct\slist.h	/^	struct _snode_t * current;$/;"	m	struct:_slist_t	typeref:struct:_slist_t::_snode_t
+current	.\struct\build\x86\nmake\release\include\struct\slist.h	/^	struct _snode_t * current;$/;"	m	struct:_slist_t	typeref:struct:_slist_t::_snode_t
+data	.\struct\avltree.h	/^	char* 	data;$/;"	m	struct:_avltree_t
+data	.\struct\build\x86\mingw\release\include\struct\avltree.h	/^	char* 	data;$/;"	m	struct:_avltree_t
+data	.\struct\build\x86\mingw\release\include\struct\slist.h	/^	uint8_t data[ANYSIZE];$/;"	m	struct:_snode_t
+data	.\struct\build\x86\nmake\release\include\struct\avltree.h	/^	char* 	data;$/;"	m	struct:_avltree_t
+data	.\struct\build\x86\nmake\release\include\struct\slist.h	/^	uint8_t data[ANYSIZE];$/;"	m	struct:_snode_t
+data	.\struct\kfifo.h	/^	void		*data;$/;"	m	struct:__kfifo
+data_len	.\struct\avltree.h	/^	int 	data_len;$/;"	m	struct:_avltree_t
+data_len	.\struct\build\x86\mingw\release\include\struct\avltree.h	/^	int 	data_len;$/;"	m	struct:_avltree_t
+data_len	.\struct\build\x86\nmake\release\include\struct\avltree.h	/^	int 	data_len;$/;"	m	struct:_avltree_t
+dec_key	.\struct\btree.c	/^static void dec_key(struct btree_geo *geo, unsigned long *key)$/;"	f	file:
+dlist_add	.\struct\dlist.h	/^static inline void dlist_add(dlist_t *list, dnode_t *entry)$/;"	f
+dlist_add_tail	.\struct\dlist.h	/^static inline void dlist_add_tail(dlist_t *list, dnode_t *entry)$/;"	f
+dlist_cut_position	.\struct\dlist.h	/^static inline void dlist_cut_position($/;"	f
+dlist_empty	.\struct\dlist.h	/^static inline bool dlist_empty(const dlist_t *list)$/;"	f
+dlist_empty_careful	.\struct\dlist.h	/^static inline bool dlist_empty_careful(const dlist_t *head)$/;"	f
+dlist_entry	.\struct\dlist.h	325;"	d
+dlist_first_entry	.\struct\dlist.h	336;"	d
+dlist_for_each	.\struct\dlist.h	348;"	d
+dlist_for_each_entry	.\struct\dlist.h	397;"	d
+dlist_for_each_entry_continue	.\struct\dlist.h	433;"	d
+dlist_for_each_entry_continue_reverse	.\struct\dlist.h	447;"	d
+dlist_for_each_entry_from	.\struct\dlist.h	460;"	d
+dlist_for_each_entry_reverse	.\struct\dlist.h	408;"	d
+dlist_for_each_entry_safe	.\struct\dlist.h	471;"	d
+dlist_for_each_entry_safe_continue	.\struct\dlist.h	487;"	d
+dlist_for_each_entry_safe_from	.\struct\dlist.h	503;"	d
+dlist_for_each_entry_safe_reverse	.\struct\dlist.h	518;"	d
+dlist_for_each_prev	.\struct\dlist.h	367;"	d
+dlist_for_each_prev_safe	.\struct\dlist.h	386;"	d
+dlist_for_each_safe	.\struct\dlist.h	376;"	d
+dlist_init	.\struct\dlist.h	/^static inline void dlist_init(dlist_t *list)$/;"	f
+dlist_is_last_entry	.\struct\dlist.h	/^bool dlist_is_last_entry(const dlist_t *list, const dnode_t *entry)$/;"	f
+dlist_is_singular	.\struct\dlist.h	/^static inline bool dlist_is_singular(const dlist_t *head)$/;"	f
+dlist_join	.\struct\dlist.h	/^static inline void dlist_join(const dlist_t *add, dlist_t *to)$/;"	f
+dlist_join_tail	.\struct\dlist.h	/^static inline void dlist_join_tail(dlist_t *add, dlist_t *to)$/;"	f
+dlist_move	.\struct\dlist.h	/^static inline void dlist_move(dlist_t *new_list, dnode_t *entry)$/;"	f
+dlist_move_tail	.\struct\dlist.h	/^static inline void dlist_move_tail(dlist_t *new_list, dnode_t *entry)$/;"	f
+dlist_next_entry	.\struct\dlist.h	339;"	d
+dlist_prepare_entry	.\struct\dlist.h	421;"	d
+dlist_remove	.\struct\dlist.h	/^static inline void dlist_remove(dnode_t *entry)$/;"	f
+dlist_replace	.\struct\dlist.h	/^static inline void dlist_replace(dnode_t *old_entry, dnode_t *new_entry)$/;"	f
+dlist_rotate_left	.\struct\dlist.h	/^static inline void dlist_rotate_left(dlist_t *list)$/;"	f
+dlist_safe_reset_next	.\struct\dlist.h	536;"	d
+dlist_t	.\struct\dlist.h	/^}dlist_t, dnode_t;$/;"	t	typeref:struct:list_head
+dnode_t	.\struct\dlist.h	/^}dlist_t, dnode_t;$/;"	t	typeref:struct:list_head
+dummy_callbacks	.\struct\rbtree.c	/^\/*static*\/ const struct rb_augment_callbacks dummy_callbacks = {$/;"	v	typeref:struct:rb_augment_callbacks
+dummy_copy	.\struct\rbtree.c	/^\/*static inline*\/  void dummy_copy(struct rb_node *old, struct rb_node *new) {}$/;"	f
+dummy_propagate	.\struct\rbtree.c	/^\/*static inline*\/ void dummy_propagate(struct rb_node *node, struct rb_node *stop) {}$/;"	f
+dummy_rotate	.\struct\rbtree.c	/^\/*static inline*\/  void dummy_rotate(struct rb_node *old, struct rb_node *new) {}$/;"	f
+dump_debug_streams	.\pdb.cpp	/^bool dump_debug_streams(pdb_t* pdb)$/;"	f
+dump_enums	.\pdb.cpp	/^bool dump_enums(pdb_t* pdb)$/;"	f
+dump_files	.\pdb.cpp	/^bool dump_files(pdb_t* pdb)$/;"	f
+dump_fpo	.\pdb.cpp	/^bool dump_fpo(pdb_t * pdb)$/;"	f
+dump_globals	.\pdb.cpp	/^bool dump_globals(pdb_t* pdb)$/;"	f
+dump_injected_sources	.\pdb.cpp	/^bool dump_injected_sources(pdb_t* pdb)$/;"	f
+dump_lines	.\pdb.cpp	/^bool dump_lines(pdb_t* pdb)$/;"	f
+dump_modules	.\pdb.cpp	/^bool dump_modules(pdb_t* pdb)$/;"	f
+dump_oems	.\pdb.cpp	/^bool dump_oems(pdb_t* pdb)$/;"	f
+dump_publics	.\pdb.cpp	/^bool dump_publics(pdb_t* pdb)$/;"	f
+dump_sec_contribs	.\pdb.cpp	/^bool dump_sec_contribs(pdb_t* pdb)$/;"	f
+dump_symbols	.\pdb.cpp	/^bool dump_symbols(pdb_t* pdb)$/;"	f
+dump_typedefs	.\pdb.cpp	/^bool dump_typedefs(pdb_t* pdb)$/;"	f
+dump_types	.\pdb.cpp	/^bool dump_types(pdb_t* pdb)$/;"	f
+dump_udts	.\pdb.cpp	/^bool dump_udts(pdb_t* pdb)$/;"	f
+dupstr	.\struct\strlist.h	/^	bool	       dupstr;$/;"	m	struct:strlist
+dwOff	.\pdb.cpp	/^  uint32_t  dwOff;$/;"	m	struct:_pdb_global	file:
+dwRVA	.\dia2dump.cpp	/^  DWORD dwRVA;$/;"	m	struct:OMAP_DATA	file:
+dwRVA	.\pdb.cpp	/^  uint32_t  dwRVA;$/;"	m	struct:_pdb_global	file:
+dwRVATo	.\dia2dump.cpp	/^  DWORD dwRVATo;$/;"	m	struct:OMAP_DATA	file:
+dwSeg	.\pdb.cpp	/^  uint32_t  dwSeg;$/;"	m	struct:_pdb_global	file:
+dwSymTag	.\pdb.cpp	/^  uint32_t  dwSymTag;$/;"	m	struct:_pdb_global	file:
+dwSymTag	.\pdb.cpp	/^  uint32_t  dwSymTag;$/;"	m	struct:_pdb_symbol	file:
+dwSymTag	.\pdb.cpp	/^  uint32_t dwSymTag;$/;"	m	struct:_pdb_udt	file:
+empty	.\struct\btree.c	/^static void empty(void *elem, unsigned long opaque, unsigned long *key,$/;"	f	file:
+entries	.\struct\rblist.h	/^	struct rb_root entries;$/;"	m	struct:rblist	typeref:struct:rblist::rb_root
+erase	.\struct\rbtree_test.c	/^static inline void erase(struct test_node *node, struct rb_root *root)$/;"	f	file:
+erase_augmented	.\struct\rbtree_test.c	/^static void erase_augmented(struct test_node *node, struct rb_root *root)$/;"	f	file:
+errno_t	.\struct\avltree.h	/^typedef int errno_t;$/;"	t
+errno_t	.\struct\build\x86\mingw\release\include\struct\avltree.h	/^typedef int errno_t;$/;"	t
+errno_t	.\struct\build\x86\mingw\release\include\struct\hashtable.h	/^typedef int errno_t;$/;"	t
+errno_t	.\struct\build\x86\mingw\release\include\struct\slist.h	/^typedef int errno_t;$/;"	t
+errno_t	.\struct\build\x86\nmake\release\include\struct\avltree.h	/^typedef int errno_t;$/;"	t
+errno_t	.\struct\build\x86\nmake\release\include\struct\hashtable.h	/^typedef int errno_t;$/;"	t
+errno_t	.\struct\build\x86\nmake\release\include\struct\slist.h	/^typedef int errno_t;$/;"	t
+errno_t	.\struct\hashtable.h	/^typedef int errno_t;$/;"	t
+errno_t	.\struct\segmentree.h	/^typedef int errno_t;$/;"	t
+error	.\utils.cpp	/^void error(char* errStr) {$/;"	f
+esize	.\struct\kfifo.h	/^	unsigned int	esize;$/;"	m	struct:__kfifo
+false	.\struct\rbtree.c	32;"	d	file:
+fifo_close	.\struct\fifo.h	/^static inline void fifo_close(fifo_t* fifo)$/;"	f
+fifo_empty	.\struct\fifo.h	/^static inline bool fifo_empty(fifo_t* fifo)$/;"	f
+fifo_full	.\struct\fifo.h	/^static inline bool fifo_full(fifo_t* fifo)$/;"	f
+fifo_get	.\struct\fifo.h	/^static inline void* fifo_get(fifo_t* fifo)$/;"	f
+fifo_init	.\struct\fifo.h	/^static inline void fifo_init(fifo_t* fifo, int max)$/;"	f
+fifo_put	.\struct\fifo.h	/^static inline bool fifo_put(fifo_t* fifo, void* entry)$/;"	f
+fifo_t	.\struct\fifo.h	/^}fifo_t;$/;"	t	typeref:struct:_fifo
+find_level	.\struct\btree.c	/^static unsigned long *find_level(struct btree_head *head, struct btree_geo *geo,$/;"	f	file:
+first	.\struct\build\x86\mingw\release\include\struct\slist.h	/^	struct _snode_t * first;\/\/ÊåáÂêëÁ¨¨‰∏Ä‰∏™ËäÇÁÇπ$/;"	m	struct:_slist_t	typeref:struct:_slist_t::_snode_t
+first	.\struct\build\x86\nmake\release\include\struct\slist.h	/^	struct _snode_t * first;\/\/ÊåáÂêëÁ¨¨‰∏Ä‰∏™ËäÇÁÇπ$/;"	m	struct:_slist_t	typeref:struct:_slist_t::_snode_t
+first	.\struct\hlist.h	/^	struct hlist_node *first;$/;"	m	struct:hlist_head	typeref:struct:hlist_head::hlist_node
+first	.\struct\slist.h	/^	struct slist_node *first;$/;"	m	struct:slist_head	typeref:struct:slist_head::slist_node
+g_dwMachineType	.\dia2dump.cpp	/^DWORD g_dwMachineType = CV_CFL_80386;$/;"	v
+g_dwMachineType	.\pdb.cpp	/^DWORD g_dwMachineType = CV_CFL_80386;$/;"	v
+g_pDiaDataSource	.\dia2dump.cpp	/^IDiaDataSource *g_pDiaDataSource;$/;"	v
+g_pDiaDataSource	.\pdb.cpp	/^	IDiaDataSource *g_pDiaDataSource;$/;"	m	struct:_pdb_t	file:
+g_pDiaSession	.\dia2dump.cpp	/^IDiaSession *g_pDiaSession;$/;"	v
+g_pDiaSession	.\pdb.cpp	/^	IDiaSession *g_pDiaSession;$/;"	m	struct:_pdb_t	file:
+g_pGlobalSymbol	.\dia2dump.cpp	/^IDiaSymbol *g_pGlobalSymbol;$/;"	v
+g_pGlobalSymbol	.\pdb.cpp	/^	IDiaSymbol *g_pGlobalSymbol;$/;"	m	struct:_pdb_t	file:
+g_szFilename	.\dia2dump.cpp	/^const wchar_t *g_szFilename;$/;"	v
+get	.\struct\klist.h	/^	void			(*get)(struct klist_node *);$/;"	m	struct:klist
+getfill	.\struct\btree.c	/^static int getfill(struct btree_geo *geo, unsigned long *node, int start)$/;"	f	file:
+getpos	.\struct\btree.c	/^static int getpos(struct btree_geo *geo, unsigned long *node,$/;"	f	file:
+hash32_ptr	.\struct\hash.h	/^static inline u32 hash32_ptr(const void *ptr)$/;"	f
+hash_32	.\struct\hash.h	/^static inline u32 hash_32(u32 val, unsigned int bits)$/;"	f
+hash_64	.\struct\hash.h	/^static inline u64 hash_64(u64 val, unsigned int bits)$/;"	f
+hash_long	.\struct\hash.h	26;"	d
+hash_long	.\struct\hash.h	28;"	d
+hash_map_earse	.\struct\hash_map.h	/^hash_map_node_t*  hash_map_earse(hash_map_t* hash_map, unsigned int key)$/;"	f
+hash_map_end_each	.\struct\hash_map.h	64;"	d
+hash_map_find	.\struct\hash_map.h	/^hash_map_node_t* hash_map_find(hash_map_t* hash_map, unsigned int key)$/;"	f
+hash_map_for_each	.\struct\hash_map.h	58;"	d
+hash_map_init	.\struct\hash_map.h	/^void hash_map_init(hash_map_t* hash_map)$/;"	f
+hash_map_insert	.\struct\hash_map.h	/^bool hash_map_insert(hash_map_t* hash_map, unsigned int key, hash_map_node_t* entry)$/;"	f
+hash_map_node_t	.\struct\hash_map.h	/^}hash_map_node_t;$/;"	t	typeref:struct:_hash_map_node
+hash_map_t	.\struct\hash_map.h	/^}hash_map_t;$/;"	t	typeref:struct:_hash_map
+hash_ptr	.\struct\hash.h	/^static inline unsigned long hash_ptr(const void *ptr, unsigned int bits)$/;"	f
+hashentry_t	.\struct\hashtable.cpp	/^}hashentry_t;$/;"	t	typeref:struct:_hashentry_t	file:
+hashtable_t	.\struct\build\x86\mingw\release\include\struct\hashtable.h	/^}hashtable_t;$/;"	t	typeref:struct:_hashtable_t
+hashtable_t	.\struct\build\x86\nmake\release\include\struct\hashtable.h	/^}hashtable_t;$/;"	t	typeref:struct:_hashtable_t
+hashtable_t	.\struct\hashtable.h	/^}hashtable_t;$/;"	t	typeref:struct:_hashtable_t
+head	.\struct\fifo.h	/^  volatile unsigned int head;$/;"	m	struct:_fifo
+height	.\struct\avltree.h	/^	int		height;					\/\/Ê†ëÁöÑÈ´òÂ∫¶$/;"	m	struct:_avltree_t
+height	.\struct\btree.h	/^	int height;$/;"	m	struct:btree_head
+height	.\struct\build\x86\mingw\release\include\struct\avltree.h	/^	int		height;					\/\/Ê†ëÁöÑÈ´òÂ∫¶$/;"	m	struct:_avltree_t
+height	.\struct\build\x86\nmake\release\include\struct\avltree.h	/^	int		height;					\/\/Ê†ëÁöÑÈ´òÂ∫¶$/;"	m	struct:_avltree_t
+hlist_add_after	.\struct\hlist.h	/^static inline void hlist_add_after(hnode_t *n, hnode_t *next)$/;"	f
+hlist_add_before	.\struct\hlist.h	/^static inline void hlist_add_before(hnode_t *n, hnode_t *next)$/;"	f
+hlist_add_fake	.\struct\hlist.h	/^static inline void hlist_add_fake(hnode_t *n)$/;"	f
+hlist_add_head	.\struct\hlist.h	/^static inline void hlist_add_head(hnode_t *n, hlist_t *h)$/;"	f
+hlist_del	.\struct\hlist.h	/^static inline void hlist_del(hnode_t *n)$/;"	f
+hlist_del_init	.\struct\hlist.h	/^static inline void hlist_del_init(hnode_t *n)$/;"	f
+hlist_empty	.\struct\hlist.h	/^static inline int hlist_empty(const hlist_t *h)$/;"	f
+hlist_entry	.\struct\hlist.h	109;"	d
+hlist_for_each	.\struct\hlist.h	111;"	d
+hlist_for_each_entry	.\struct\hlist.h	125;"	d
+hlist_for_each_entry_continue	.\struct\hlist.h	137;"	d
+hlist_for_each_entry_from	.\struct\hlist.h	149;"	d
+hlist_for_each_entry_safe	.\struct\hlist.h	169;"	d
+hlist_for_each_safe	.\struct\hlist.h	114;"	d
+hlist_head	.\struct\hlist.h	/^typedef struct hlist_head {$/;"	s
+hlist_move_list	.\struct\hlist.h	/^static inline void hlist_move_list(hlist_t *old, hlist_t *to)$/;"	f
+hlist_node	.\struct\hlist.h	/^typedef struct hlist_node {$/;"	s
+hlist_t	.\struct\hlist.h	/^}hlist_t;$/;"	t	typeref:struct:hlist_head
+hlist_unhashed	.\struct\hlist.h	/^static inline int hlist_unhashed(const hnode_t *h)$/;"	f
+hnode	.\struct\example.cpp	/^	hnode_t 	hnode;$/;"	m	struct:_node_t	file:
+hnode_t	.\struct\hlist.h	/^}hnode_t;$/;"	t	typeref:struct:hlist_node
+htable_burket	.\struct\hlist.h	/^hlist_t* htable_burket(hlist_t* table, int burk_size, uint32_t hash)$/;"	f
+htable_init	.\struct\hlist.h	/^void htable_init(hlist_t* list, int size)$/;"	f
+i	.\struct\intlist.h	/^	int i;$/;"	m	struct:int_node
+iCvReg	.\regs.h	/^    CV_HREG_e  iCvReg;$/;"	m	struct:MapIa64Reg
+i_cur	.\struct\klist.h	/^	struct klist_node	*i_cur;$/;"	m	struct:klist_iter	typeref:struct:klist_iter::klist_node
+i_klist	.\struct\klist.h	/^	struct klist		*i_klist;$/;"	m	struct:klist_iter	typeref:struct:klist_iter::klist
+id	.\struct\example.cpp	/^	int32_t		id;$/;"	m	struct:_node_t	file:
+idNode	.\struct\hashtable.cpp	/^  uint32_t   			idNode;     \/\/¿≠¡¥Ω⁄µ„∫≈$/;"	m	struct:_hashentry_t	file:
+in	.\struct\kfifo.h	/^	unsigned int	in;$/;"	m	struct:__kfifo
+in	.\struct\rfifo.c	/^	int in;$/;"	m	struct:_rfifo_t	file:
+increment	.\struct\fifo.h	/^static inline unsigned int increment(unsigned int idx, unsigned int max)$/;"	f
+init	.\struct\rbtree_test.c	/^static void init(void)$/;"	f	file:
+insert	.\struct\rbtree_test.c	/^static void insert(struct test_node *node, struct rb_root *root)$/;"	f	file:
+insert_augmented	.\struct\rbtree_test.c	/^static void insert_augmented(struct test_node *node, struct rb_root *root)$/;"	f	file:
+int16_t	.\struct\typedef.h	/^typedef short int16_t;$/;"	t
+int32_t	.\struct\typedef.h	/^typedef int int32_t;$/;"	t
+int64_t	.\struct\typedef.h	/^typedef long long int64_t;$/;"	t
+int8_t	.\struct\typedef.h	/^typedef signed char int8_t;$/;"	t
+int_fast16_t	.\struct\typedef.h	/^typedef int int_fast16_t;$/;"	t
+int_fast32_t	.\struct\typedef.h	/^typedef int int_fast32_t;$/;"	t
+int_fast64_t	.\struct\typedef.h	/^typedef long long int_fast64_t;$/;"	t
+int_fast8_t	.\struct\typedef.h	/^typedef char int_fast8_t;$/;"	t
+int_least16_t	.\struct\typedef.h	/^typedef short int_least16_t;$/;"	t
+int_least32_t	.\struct\typedef.h	/^typedef int int_least32_t;$/;"	t
+int_least64_t	.\struct\typedef.h	/^typedef long long int_least64_t;$/;"	t
+int_least8_t	.\struct\typedef.h	/^typedef signed char int_least8_t;$/;"	t
+int_node	.\struct\intlist.h	/^struct int_node {$/;"	s
+int_node__delete	.\struct\intlist.c	/^static void int_node__delete(struct int_node *ilist)$/;"	f	file:
+intlist	.\struct\intlist.h	/^struct intlist {$/;"	s
+intlist__add	.\struct\intlist.c	/^int intlist__add(struct intlist *ilist, int i)$/;"	f
+intlist__delete	.\struct\intlist.c	/^void intlist__delete(struct intlist *ilist)$/;"	f
+intlist__empty	.\struct\intlist.h	/^static inline bool intlist__empty(const struct intlist *ilist)$/;"	f
+intlist__entry	.\struct\intlist.c	/^struct int_node *intlist__entry(const struct intlist *ilist, unsigned int idx)$/;"	f
+intlist__find	.\struct\intlist.c	/^struct int_node *intlist__find(struct intlist *ilist, int i)$/;"	f
+intlist__first	.\struct\intlist.h	/^static inline struct int_node *intlist__first(struct intlist *ilist)$/;"	f
+intlist__for_each	.\struct\intlist.h	60;"	d
+intlist__for_each_safe	.\struct\intlist.h	70;"	d
+intlist__has_entry	.\struct\intlist.h	/^static inline bool intlist__has_entry(struct intlist *ilist, int i)$/;"	f
+intlist__new	.\struct\intlist.c	/^struct intlist *intlist__new(void)$/;"	f
+intlist__next	.\struct\intlist.h	/^static inline struct int_node *intlist__next(struct int_node *in)$/;"	f
+intlist__node_cmp	.\struct\intlist.c	/^static int intlist__node_cmp(struct rb_node *rb_node, const void *entry)$/;"	f	file:
+intlist__node_delete	.\struct\intlist.c	/^static void intlist__node_delete(struct rblist *rblist __maybe_unused,$/;"	f	file:
+intlist__node_new	.\struct\intlist.c	/^static struct rb_node *intlist__node_new(struct rblist *rblist __maybe_unused,$/;"	f	file:
+intlist__nr_entries	.\struct\intlist.h	/^static inline unsigned int intlist__nr_entries(const struct intlist *ilist)$/;"	f
+intlist__remove	.\struct\intlist.c	/^void intlist__remove(struct intlist *ilist, struct int_node *node)$/;"	f
+intmax_t	.\struct\typedef.h	/^typedef long long intmax_t;$/;"	t
+is_red	.\struct\rbtree_test.c	/^static bool is_red(struct rb_node *rb)$/;"	f	file:
+jhash	.\struct\jhash.h	/^static inline u32 jhash(const void *key, u32 length, u32 initval)$/;"	f
+jhash2	.\struct\jhash.h	/^static inline u32 jhash2(const u32 *k, u32 length, u32 initval)$/;"	f
+jhash_1word	.\struct\jhash.h	/^static inline u32 jhash_1word(u32 a, u32 initval)$/;"	f
+jhash_2words	.\struct\jhash.h	/^static inline u32 jhash_2words(u32 a, u32 b, u32 initval)$/;"	f
+jhash_3words	.\struct\jhash.h	/^static inline u32 jhash_3words(u32 a, u32 b, u32 c, u32 initval)$/;"	f
+jhash_mask	.\struct\jhash.h	49;"	d
+jhash_size	.\struct\jhash.h	47;"	d
+k_list	.\struct\klist.h	/^	struct list_head	k_list;$/;"	m	struct:klist	typeref:struct:klist::list_head
+k_lock	.\struct\klist.h	/^	spinlock_t		k_lock;$/;"	m	struct:klist
+key	.\struct\hash_map.h	/^	uint32_t	key;$/;"	m	struct:_hash_map_node
+key	.\struct\map.h	/^	uint32_t key;$/;"	m	struct:_map_node
+key	.\struct\rbtree_test.c	/^	u32 key;$/;"	m	struct:test_node	file:
+keycmp	.\struct\btree.c	/^static int keycmp(struct btree_geo *geo, unsigned long *node, int pos,$/;"	f	file:
+keylen	.\struct\btree.c	/^	int keylen;$/;"	m	struct:btree_geo	file:
+keyzero	.\struct\btree.c	/^static int keyzero(struct btree_geo *geo, unsigned long *key)$/;"	f	file:
+kfifo_alloc	.\struct\kfifo.h	331;"	d
+kfifo_avail	.\struct\kfifo.h	275;"	d
+kfifo_copy_from_user	.\struct\kfifo.c	/^static unsigned long kfifo_copy_from_user(struct __kfifo *fifo,$/;"	f	file:
+kfifo_copy_in	.\struct\kfifo.c	/^static void kfifo_copy_in(struct __kfifo *fifo, const void *src,$/;"	f	file:
+kfifo_copy_out	.\struct\kfifo.c	/^static void kfifo_copy_out(struct __kfifo *fifo, void *dst,$/;"	f	file:
+kfifo_copy_to_user	.\struct\kfifo.c	/^static unsigned long kfifo_copy_to_user(struct __kfifo *fifo, void __user *to,$/;"	f	file:
+kfifo_dma_in_finish	.\struct\kfifo.h	697;"	d
+kfifo_dma_in_prepare	.\struct\kfifo.h	673;"	d
+kfifo_dma_out_finish	.\struct\kfifo.h	748;"	d
+kfifo_dma_out_prepare	.\struct\kfifo.h	724;"	d
+kfifo_esize	.\struct\kfifo.h	199;"	d
+kfifo_free	.\struct\kfifo.h	346;"	d
+kfifo_from_user	.\struct\kfifo.h	617;"	d
+kfifo_get	.\struct\kfifo.h	427;"	d
+kfifo_in	.\struct\kfifo.h	508;"	d
+kfifo_in_locked	.\struct\kfifo.h	545;"	d
+kfifo_in_spinlocked	.\struct\kfifo.h	534;"	d
+kfifo_init	.\struct\kfifo.h	365;"	d
+kfifo_initialized	.\struct\kfifo.h	193;"	d
+kfifo_is_empty	.\struct\kfifo.h	255;"	d
+kfifo_is_full	.\struct\kfifo.h	265;"	d
+kfifo_len	.\struct\kfifo.h	245;"	d
+kfifo_out	.\struct\kfifo.h	560;"	d
+kfifo_out_copy_r	.\struct\kfifo.c	/^static unsigned int kfifo_out_copy_r(struct __kfifo *fifo,$/;"	f	file:
+kfifo_out_locked	.\struct\kfifo.h	601;"	d
+kfifo_out_peek	.\struct\kfifo.h	772;"	d
+kfifo_out_spinlocked	.\struct\kfifo.h	588;"	d
+kfifo_peek	.\struct\kfifo.h	468;"	d
+kfifo_peek_len	.\struct\kfifo.h	308;"	d
+kfifo_put	.\struct\kfifo.h	386;"	d
+kfifo_recsize	.\struct\kfifo.h	205;"	d
+kfifo_reset	.\struct\kfifo.h	221;"	d
+kfifo_reset_out	.\struct\kfifo.h	235;"	d
+kfifo_size	.\struct\kfifo.h	211;"	d
+kfifo_skip	.\struct\kfifo.h	291;"	d
+kfifo_to_user	.\struct\kfifo.h	645;"	d
+kfifo_unused	.\struct\kfifo.c	/^static inline unsigned int kfifo_unused(struct __kfifo *fifo)$/;"	f	file:
+klist	.\struct\klist.h	/^struct klist {$/;"	s
+klist_add_after	.\struct\klist.c	/^EXPORT_SYMBOL_GPL(klist_add_after);$/;"	v
+klist_add_after	.\struct\klist.c	/^void klist_add_after(struct klist_node *n, struct klist_node *pos)$/;"	f
+klist_add_before	.\struct\klist.c	/^EXPORT_SYMBOL_GPL(klist_add_before);$/;"	v
+klist_add_before	.\struct\klist.c	/^void klist_add_before(struct klist_node *n, struct klist_node *pos)$/;"	f
+klist_add_head	.\struct\klist.c	/^EXPORT_SYMBOL_GPL(klist_add_head);$/;"	v
+klist_add_head	.\struct\klist.c	/^void klist_add_head(struct klist_node *n, struct klist *k)$/;"	f
+klist_add_tail	.\struct\klist.c	/^EXPORT_SYMBOL_GPL(klist_add_tail);$/;"	v
+klist_add_tail	.\struct\klist.c	/^void klist_add_tail(struct klist_node *n, struct klist *k)$/;"	f
+klist_dec_and_del	.\struct\klist.c	/^static int klist_dec_and_del(struct klist_node *n)$/;"	f	file:
+klist_del	.\struct\klist.c	/^EXPORT_SYMBOL_GPL(klist_del);$/;"	v
+klist_del	.\struct\klist.c	/^void klist_del(struct klist_node *n)$/;"	f
+klist_init	.\struct\klist.c	/^EXPORT_SYMBOL_GPL(klist_init);$/;"	v
+klist_init	.\struct\klist.c	/^void klist_init(struct klist *k, void (*get)(struct klist_node *),$/;"	f
+klist_iter	.\struct\klist.h	/^struct klist_iter {$/;"	s
+klist_iter_exit	.\struct\klist.c	/^EXPORT_SYMBOL_GPL(klist_iter_exit);$/;"	v
+klist_iter_exit	.\struct\klist.c	/^void klist_iter_exit(struct klist_iter *i)$/;"	f
+klist_iter_init	.\struct\klist.c	/^EXPORT_SYMBOL_GPL(klist_iter_init);$/;"	v
+klist_iter_init	.\struct\klist.c	/^void klist_iter_init(struct klist *k, struct klist_iter *i)$/;"	f
+klist_iter_init_node	.\struct\klist.c	/^EXPORT_SYMBOL_GPL(klist_iter_init_node);$/;"	v
+klist_iter_init_node	.\struct\klist.c	/^void klist_iter_init_node(struct klist *k, struct klist_iter *i,$/;"	f
+klist_next	.\struct\klist.c	/^EXPORT_SYMBOL_GPL(klist_next);$/;"	v
+klist_next	.\struct\klist.c	/^struct klist_node *klist_next(struct klist_iter *i)$/;"	f
+klist_node	.\struct\klist.h	/^struct klist_node {$/;"	s
+klist_node_attached	.\struct\klist.c	/^EXPORT_SYMBOL_GPL(klist_node_attached);$/;"	v
+klist_node_attached	.\struct\klist.c	/^int klist_node_attached(struct klist_node *n)$/;"	f
+klist_node_init	.\struct\klist.c	/^static void klist_node_init(struct klist *k, struct klist_node *n)$/;"	f	file:
+klist_put	.\struct\klist.c	/^static void klist_put(struct klist_node *n, bool kill)$/;"	f	file:
+klist_release	.\struct\klist.c	/^static void klist_release(struct kref *kref)$/;"	f	file:
+klist_remove	.\struct\klist.c	/^EXPORT_SYMBOL_GPL(klist_remove);$/;"	v
+klist_remove	.\struct\klist.c	/^void klist_remove(struct klist_node *n)$/;"	f
+klist_waiter	.\struct\klist.c	/^struct klist_waiter {$/;"	s	file:
+knode_dead	.\struct\klist.c	/^static bool knode_dead(struct klist_node *knode)$/;"	f	file:
+knode_kill	.\struct\klist.c	/^static void knode_kill(struct klist_node *knode)$/;"	f	file:
+knode_klist	.\struct\klist.c	/^static struct klist *knode_klist(struct klist_node *knode)$/;"	f	file:
+knode_set_klist	.\struct\klist.c	/^static void knode_set_klist(struct klist_node *knode, struct klist *klist)$/;"	f	file:
+l	.\struct\segmentree.cpp	/^}l[2*S];$/;"	v	typeref:struct:lines
+last	.\struct\build\x86\mingw\release\include\struct\slist.h	/^	struct _snode_t * last; \/\/ÊåáÂêëÊúÄÂêé‰∏Ä‰∏™ËäÇÁÇπ$/;"	m	struct:_slist_t	typeref:struct:_slist_t::_snode_t
+last	.\struct\build\x86\nmake\release\include\struct\slist.h	/^	struct _snode_t * last; \/\/ÊåáÂêëÊúÄÂêé‰∏Ä‰∏™ËäÇÁÇπ$/;"	m	struct:_slist_t	typeref:struct:_slist_t::_snode_t
+left	.\struct\avltree.h	/^	struct _avltree_t* left;		\/\/Â∑¶Â≠êÊ†ë$/;"	m	struct:_avltree_t	typeref:struct:_avltree_t::_avltree_t
+left	.\struct\build\x86\mingw\release\include\struct\avltree.h	/^	struct _avltree_t* left;		\/\/Â∑¶Â≠êÊ†ë$/;"	m	struct:_avltree_t	typeref:struct:_avltree_t::_avltree_t
+left	.\struct\build\x86\nmake\release\include\struct\avltree.h	/^	struct _avltree_t* left;		\/\/Â∑¶Â≠êÊ†ë$/;"	m	struct:_avltree_t	typeref:struct:_avltree_t::_avltree_t
+left	.\struct\segmentree.cpp	/^	struct _segmentree_t *left;$/;"	m	struct:_segmentree_t	typeref:struct:_segmentree_t::_segmentree_t	file:
+lines	.\struct\segmentree.cpp	/^struct lines$/;"	s	file:
+list	.\struct\klist.c	/^	struct list_head list;$/;"	m	struct:klist_waiter	typeref:struct:klist_waiter::list_head	file:
+list_head	.\struct\dlist.h	/^typedef struct list_head {$/;"	s
+listentry_t	.\struct\build\x86\mingw\release\include\struct\hashtable.h	/^}listentry_t;$/;"	t	typeref:struct:_listentry_t
+listentry_t	.\struct\build\x86\nmake\release\include\struct\hashtable.h	/^}listentry_t;$/;"	t	typeref:struct:_listentry_t
+listentry_t	.\struct\hashtable.h	/^}listentry_t;$/;"	t	typeref:struct:_listentry_t
+longcmp	.\struct\btree.c	/^static int longcmp(const unsigned long *l1, const unsigned long *l2, size_t n)$/;"	f	file:
+longcpy	.\struct\btree.c	/^static unsigned long *longcpy(unsigned long *dest, const unsigned long *src,$/;"	f	file:
+longset	.\struct\btree.c	/^static unsigned long *longset(unsigned long *s, unsigned long c, size_t n)$/;"	f	file:
+m_nRefCount	.\callback.h	/^    int m_nRefCount;$/;"	m	class:CCallback
+main	.\pdbdump.cpp	/^int main(int argc, char* argv[]) {$/;"	f
+main	.\struct\example.cpp	/^int main(int argc, char* argv[])$/;"	f
+main	.\struct\segmentree.cpp	/^main()$/;"	f
+map_find	.\struct\map.h	/^map_node_t* map_find(map_t* map, uint32_t key)$/;"	f
+map_first	.\struct\map.h	/^map_node_t* map_first(map_t* map)$/;"	f
+map_for_each_safe	.\struct\map.h	88;"	d
+map_insert	.\struct\map.h	/^bool map_insert(map_t *map, uint32_t key, map_node_t *entry)$/;"	f
+map_next	.\struct\map.h	/^map_node_t* map_next(map_node_t* iter)$/;"	f
+map_node_t	.\struct\map.h	/^}map_node_t;$/;"	t	typeref:struct:_map_node
+map_remove	.\struct\map.h	/^map_node_t* map_remove(map_t* map, uint32_t key)$/;"	f
+map_t	.\struct\map.h	/^typedef struct rb_root 	map_t;$/;"	t	typeref:struct:rb_root
+mask	.\struct\kfifo.h	/^	unsigned int	mask;$/;"	m	struct:__kfifo
+max	.\struct\fifo.h	/^  volatile unsigned int max;$/;"	m	struct:_fifo
+max	.\struct\segmentree.cpp	/^	uint32_t max;$/;"	m	struct:_segmentree_t	file:
+max_key	.\struct\avltree.h	/^	uint32_t max_key;$/;"	m	struct:_avltree_t
+max_key	.\struct\build\x86\mingw\release\include\struct\avltree.h	/^	uint32_t max_key;$/;"	m	struct:_avltree_t
+max_key	.\struct\build\x86\nmake\release\include\struct\avltree.h	/^	uint32_t max_key;$/;"	m	struct:_avltree_t
+mempool	.\struct\btree.h	/^	mempool_t *mempool;$/;"	m	struct:btree_head
+merge	.\struct\btree.c	/^static void merge(struct btree_head *head, struct btree_geo *geo, int level,$/;"	f	file:
+min	.\struct\segmentree.cpp	/^	uint32_t min;$/;"	m	struct:_segmentree_t	file:
+min_key	.\struct\avltree.h	/^	uint32_t min_key;$/;"	m	struct:_avltree_t
+min_key	.\struct\build\x86\mingw\release\include\struct\avltree.h	/^	uint32_t min_key;$/;"	m	struct:_avltree_t
+min_key	.\struct\build\x86\nmake\release\include\struct\avltree.h	/^	uint32_t min_key;$/;"	m	struct:_avltree_t
+modules	.\pdb.cpp	/^	map_t 	modules;$/;"	m	struct:_pdb_t	file:
+mpIa64regSz	.\regs.cpp	/^const MapIa64Reg mpIa64regSz[] = {$/;"	v
+myDebugBreak	.\PrintSymbol.h	/^inline int myDebugBreak( int ){$/;"	f
+my_first	.\struct\example.cpp	/^node_t* my_first(struct rb_root* root)$/;"	f
+my_insert	.\struct\example.cpp	/^bool my_insert(struct rb_root *root, node_t *data)$/;"	f
+my_next	.\struct\example.cpp	/^node_t* my_next(node_t* iter)$/;"	f
+n_klist	.\struct\klist.h	/^	void			*n_klist;	\/* never access directly *\/$/;"	m	struct:klist_node
+n_node	.\struct\klist.h	/^	struct list_head	n_node;$/;"	m	struct:klist_node	typeref:struct:klist_node::list_head
+n_ref	.\struct\klist.h	/^	struct kref		n_ref;$/;"	m	struct:klist_node	typeref:struct:klist_node::kref
+name	.\pdb.cpp	/^	wchar_t name[256];$/;"	m	struct:_pdb_module	file:
+name	.\pdb.cpp	/^  wchar_t   name[NAME_SIZE];$/;"	m	struct:_pdb_public	file:
+name	.\pdb.cpp	/^  wchar_t   name[NAME_SIZE];$/;"	m	struct:_pdb_symbol	file:
+name	.\struct\example.cpp	/^	char		name[32];$/;"	m	struct:_node_t	file:
+next	.\struct\build\x86\mingw\release\include\struct\slist.h	/^	struct _snode_t * next; \/\/ÊåáÂêë‰∏ã‰∏Ä‰∏™ËäÇÁÇπ$/;"	m	struct:_snode_t	typeref:struct:_snode_t::_snode_t
+next	.\struct\build\x86\nmake\release\include\struct\slist.h	/^	struct _snode_t * next; \/\/ÊåáÂêë‰∏ã‰∏Ä‰∏™ËäÇÁÇπ$/;"	m	struct:_snode_t	typeref:struct:_snode_t::_snode_t
+next	.\struct\dlist.h	/^	struct list_head *next, *prev;$/;"	m	struct:list_head	typeref:struct:list_head::list_head
+next	.\struct\hlist.h	/^	struct hlist_node *next, **pprev;$/;"	m	struct:hlist_node	typeref:struct:hlist_node::hlist_node
+next	.\struct\slist.h	/^	struct slist_node *next;$/;"	m	struct:slist_node	typeref:struct:slist_node::slist_node
+no_longs	.\struct\btree.c	/^	int no_longs;$/;"	m	struct:btree_geo	file:
+no_pairs	.\struct\btree.c	/^	int no_pairs;$/;"	m	struct:btree_geo	file:
+node	.\struct\btree.h	/^	unsigned long *node;$/;"	m	struct:btree_head
+node	.\struct\example.cpp	/^	dnode_t 	node;$/;"	m	struct:_node_t	file:
+node	.\struct\hash_map.h	/^	hnode_t     node;$/;"	m	struct:_hash_map_node
+node	.\struct\klist.c	/^	struct klist_node *node;$/;"	m	struct:klist_waiter	typeref:struct:klist_waiter::klist_node	file:
+node	.\struct\map.h	/^	struct rb_node node;$/;"	m	struct:_map_node	typeref:struct:_map_node::rb_node
+node_cmp	.\struct\rblist.h	/^	int (*node_cmp)(struct rb_node *rbn, const void *entry);$/;"	m	struct:rblist
+node_delete	.\struct\rblist.h	/^	void (*node_delete)(struct rblist *rblist, struct rb_node *rb_node);$/;"	m	struct:rblist
+node_new	.\struct\rblist.h	/^	struct rb_node *(*node_new)(struct rblist *rlist, const void *new_entry);$/;"	m	struct:rblist	typeref:struct:rblist::node_new
+node_t	.\struct\example.cpp	/^}node_t;$/;"	t	typeref:struct:_node_t	file:
+nodes	.\struct\rbtree_test.c	/^static struct test_node nodes[NODES];$/;"	v	typeref:struct:test_node	file:
+nr_entries	.\struct\rblist.h	/^	unsigned int   nr_entries;$/;"	m	struct:rblist
+offset_of	.\struct\contain.h	4;"	d
+option	.\struct\cmpxchg_x86.asm	/^option casemap:none$/;"	l
+out	.\struct\kfifo.h	/^	unsigned int	out;$/;"	m	struct:__kfifo
+out	.\struct\rfifo.c	/^	int out;$/;"	m	struct:_rfifo_t	file:
+parent	.\struct\avltree.h	/^	struct _avltree_t* parent;		\/\/Áà∂ËäÇÁÇπ$/;"	m	struct:_avltree_t	typeref:struct:_avltree_t::_avltree_t
+parent	.\struct\build\x86\mingw\release\include\struct\avltree.h	/^	struct _avltree_t* parent;		\/\/Áà∂ËäÇÁÇπ$/;"	m	struct:_avltree_t	typeref:struct:_avltree_t::_avltree_t
+parent	.\struct\build\x86\nmake\release\include\struct\avltree.h	/^	struct _avltree_t* parent;		\/\/Áà∂ËäÇÁÇπ$/;"	m	struct:_avltree_t	typeref:struct:_avltree_t::_avltree_t
+pdb_close	.\pdb.cpp	/^void pdb_close(int fd)$/;"	f
+pdb_enum_t	.\pdb.cpp	/^}pdb_enum_t;$/;"	t	typeref:struct:_pdb_enum	file:
+pdb_global_t	.\pdb.cpp	/^}pdb_global_t;$/;"	t	typeref:struct:_pdb_global	file:
+pdb_load	.\pdb.cpp	/^int pdb_load(const wchar_t* pdb_file)$/;"	f
+pdb_module_t	.\pdb.cpp	/^}pdb_module_t;$/;"	t	typeref:struct:_pdb_module	file:
+pdb_public_t	.\pdb.cpp	/^}pdb_public_t;$/;"	t	typeref:struct:_pdb_public	file:
+pdb_symbol_t	.\pdb.cpp	/^}pdb_symbol_t;$/;"	t	typeref:struct:_pdb_symbol	file:
+pdb_t	.\pdb.cpp	/^}pdb_t;$/;"	t	typeref:struct:_pdb_t	file:
+pdb_udt_t	.\pdb.cpp	/^}pdb_udt_t;$/;"	t	typeref:struct:_pdb_udt	file:
+pprev	.\struct\hlist.h	/^	struct hlist_node *next, **pprev;$/;"	m	struct:hlist_node	typeref:struct:hlist_node::
+prev	.\struct\dlist.h	/^	struct list_head *next, *prev;$/;"	m	struct:list_head	typeref:struct:list_head::
+process	.\struct\klist.c	/^	struct task_struct *process;$/;"	m	struct:klist_waiter	typeref:struct:klist_waiter::task_struct	file:
+propagate	.\struct\rbtree_augmented.h	/^	void (*propagate)(struct rb_node *node, struct rb_node *stop);$/;"	m	struct:rb_augment_callbacks
+put	.\struct\klist.h	/^	void			(*put)(struct klist_node *);$/;"	m	struct:klist
+queue_close	.\struct\queue.h	8;"	d
+queue_get	.\struct\queue.h	10;"	d
+queue_init	.\struct\queue.h	7;"	d
+queue_put	.\struct\queue.h	9;"	d
+queue_t	.\struct\queue.h	6;"	d
+raw	.\pdb.cpp	/^  uint32_t  raw;$/;"	m	struct:_pdb_public	file:
+rb	.\struct\rbtree_test.c	/^	struct rb_node rb;$/;"	m	struct:test_node	typeref:struct:test_node::rb_node	file:
+rb_augment_callbacks	.\struct\rbtree_augmented.h	/^struct rb_augment_callbacks {$/;"	s
+rb_color	.\struct\rbtree_augmented.h	95;"	d
+rb_entry	.\struct\rbtree.h	54;"	d
+rb_erase	.\struct\rbtree.c	/^void rb_erase(struct rb_node *node, struct rb_root *root)$/;"	f
+rb_erase_augmented	.\struct\rbtree_augmented.h	/^rb_erase_augmented(struct rb_node *node, struct rb_root *root,$/;"	f
+rb_find	.\struct\rbtree.h	90;"	d
+rb_first	.\struct\rbtree.c	/^struct rb_node *rb_first(const struct rb_root *root)$/;"	f
+rb_insert_augmented	.\struct\rbtree_augmented.h	/^rb_insert_augmented(struct rb_node *node, struct rb_root *root,$/;"	f
+rb_insert_color	.\struct\rbtree.c	/^void rb_insert_color(struct rb_node *node, struct rb_root *root)$/;"	f
+rb_is_black	.\struct\rbtree_augmented.h	97;"	d
+rb_is_red	.\struct\rbtree_augmented.h	96;"	d
+rb_last	.\struct\rbtree.c	/^struct rb_node *rb_last(const struct rb_root *root)$/;"	f
+rb_left	.\struct\rbtree.h	/^	struct rb_node *rb_left;$/;"	m	struct:rb_node	typeref:struct:rb_node::rb_node
+rb_link_node	.\struct\rbtree.h	/^static void rb_link_node($/;"	f
+rb_next	.\struct\rbtree.c	/^struct rb_node *rb_next(const struct rb_node *node)$/;"	f
+rb_node	.\struct\intlist.h	/^	struct rb_node rb_node;$/;"	m	struct:int_node	typeref:struct:int_node::rb_node
+rb_node	.\struct\rbtree.h	/^	struct rb_node *rb_node;$/;"	m	struct:rb_root	typeref:struct:rb_root::rb_node
+rb_node	.\struct\rbtree.h	/^struct rb_node {$/;"	s
+rb_node	.\struct\strlist.h	/^	struct rb_node rb_node;$/;"	m	struct:str_node	typeref:struct:str_node::rb_node
+rb_parent	.\struct\rbtree.h	51;"	d
+rb_prev	.\struct\rbtree.c	/^struct rb_node *rb_prev(const struct rb_node *node)$/;"	f
+rb_red_parent	.\struct\rbtree.c	/^struct rb_node *rb_red_parent(struct rb_node *red)$/;"	f
+rb_replace_node	.\struct\rbtree.c	/^void rb_replace_node(struct rb_node *victim, struct rb_node *new,$/;"	f
+rb_right	.\struct\rbtree.h	/^	struct rb_node *rb_right;$/;"	m	struct:rb_node	typeref:struct:rb_node::rb_node
+rb_root	.\struct\rbtree.h	/^struct rb_root {$/;"	s
+rb_set_black	.\struct\rbtree.c	/^void rb_set_black(struct rb_node *rb)$/;"	f
+rb_set_parent	.\struct\rbtree_augmented.h	/^static \/*inline*\/ void rb_set_parent(struct rb_node *rb, struct rb_node *p)$/;"	f
+rb_set_parent_color	.\struct\rbtree_augmented.h	/^static \/*inline*\/ void rb_set_parent_color(struct rb_node *rb,$/;"	f
+rblist	.\struct\intlist.h	/^	struct rblist rblist;$/;"	m	struct:intlist	typeref:struct:intlist::rblist
+rblist	.\struct\rblist.h	/^struct rblist {$/;"	s
+rblist	.\struct\strlist.h	/^	struct rblist rblist;$/;"	m	struct:strlist	typeref:struct:strlist::rblist
+rblist__add_node	.\struct\rblist.c	/^int rblist__add_node(struct rblist *rblist, const void *new_entry)$/;"	f
+rblist__delete	.\struct\rblist.c	/^void rblist__delete(struct rblist *rblist)$/;"	f
+rblist__empty	.\struct\rblist.h	/^static inline bool rblist__empty(const struct rblist *rblist)$/;"	f
+rblist__entry	.\struct\rblist.c	/^struct rb_node *rblist__entry(const struct rblist *rblist, unsigned int idx)$/;"	f
+rblist__find	.\struct\rblist.c	/^struct rb_node *rblist__find(struct rblist *rblist, const void *entry)$/;"	f
+rblist__init	.\struct\rblist.c	/^void rblist__init(struct rblist *rblist)$/;"	f
+rblist__nr_entries	.\struct\rblist.h	/^static inline unsigned int rblist__nr_entries(const struct rblist *rblist)$/;"	f
+rblist__remove_node	.\struct\rblist.c	/^void rblist__remove_node(struct rblist *rblist, struct rb_node *rb_node)$/;"	f
+rbnode	.\struct\example.cpp	/^	struct rb_node 	rbnode;$/;"	m	struct:_node_t	typeref:struct:_node_t::rb_node	file:
+rbtree_test_exit	.\struct\rbtree_test.c	/^static void rbtree_test_exit(void)$/;"	f	file:
+rbtree_test_init	.\struct\rbtree_test.c	/^static int rbtree_test_init(void)$/;"	f	file:
+rebalance	.\struct\btree.c	/^static void rebalance(struct btree_head *head, struct btree_geo *geo,$/;"	f	file:
+renderClasses	.\PdbRender.cpp	/^void renderClasses(FILE* outStream, IDiaSymbol* scope) {$/;"	f
+renderConstants	.\PdbRender.cpp	/^void renderConstants(FILE* outStream, IDiaSymbol* scope) {$/;"	f
+renderDataItem	.\PdbRender.cpp	/^wstring renderDataItem(PdbItemData* item) {$/;"	f
+renderEnumeration	.\PdbRender.cpp	/^wstring renderEnumeration(PdbTypeEnumeration* curEnum) {$/;"	f
+renderEnumerations	.\PdbRender.cpp	/^void renderEnumerations(FILE* outStream, IDiaSymbol* scope) {$/;"	f
+renderFunction	.\PdbRender.cpp	/^wstring renderFunction(PdbItemFunction* curFunc) {$/;"	f
+renderFunctions	.\PdbRender.cpp	/^void renderFunctions(FILE* outStream, IDiaSymbol* scope) {$/;"	f
+renderGUID	.\utils.cpp	/^wstring renderGUID(GUID* guid) {$/;"	f
+renderHexOffset	.\PdbRender.cpp	/^wstring renderHexOffset(int tmp) {$/;"	f
+renderPublicSymbol	.\PdbRender.cpp	/^wstring renderPublicSymbol(PdbItemPublicSymbol* curItem) {$/;"	f
+renderPublicSymbols	.\PdbRender.cpp	/^void renderPublicSymbols(FILE* outStream, IDiaSymbol* scope) {$/;"	f
+renderRegister	.\PdbRender.cpp	/^wstring renderRegister(CV_HREG_e registerId) {$/;"	f
+renderStaticAndGlobalData	.\PdbRender.cpp	/^void renderStaticAndGlobalData(FILE* outStream, IDiaSymbol* scope) {$/;"	f
+renderStructs	.\PdbRender.cpp	/^void renderStructs(FILE* outStream, IDiaSymbol* scope) {$/;"	f
+renderThunk	.\PdbRender.cpp	/^wstring renderThunk(PdbItemFunction* curThunk) {$/;"	f
+renderTypeShort	.\PdbRender.cpp	/^wstring renderTypeShort(PdbType* type, bool withName, wstring dataName,$/;"	f
+renderTypedef	.\PdbRender.cpp	/^wstring renderTypedef(PdbTypeTypedef* curTypedef) {$/;"	f
+renderTypedefs	.\PdbRender.cpp	/^void renderTypedefs(FILE* outStream, IDiaSymbol* scope) {$/;"	f
+renderUDT	.\PdbRender.cpp	/^wstring renderUDT(PdbTypeUDT* curUDT) {$/;"	f
+renderUnions	.\PdbRender.cpp	/^void renderUnions(FILE* outStream, IDiaSymbol* scope) {$/;"	f
+reportError	.\utils.cpp	/^void reportError() {$/;"	f
+rfifo_close	.\struct\rfifo.c	/^void rfifo_close(rfifo_t* queue)$/;"	f
+rfifo_empty	.\struct\rfifo.c	/^bool rfifo_empty(rfifo_t* queue)$/;"	f
+rfifo_get	.\struct\rfifo.c	/^void* rfifo_get(rfifo_t* queue)$/;"	f
+rfifo_init	.\struct\rfifo.c	/^void rfifo_init(rfifo_t* queue, int max_size)$/;"	f
+rfifo_put	.\struct\rfifo.c	/^bool rfifo_put(rfifo_t* queue, void *entry)$/;"	f
+rfifo_t	.\struct\rfifo.c	/^}rfifo_t;$/;"	t	typeref:struct:_rfifo_t	file:
+rgAccess	.\PrintSymbol.cpp	/^const wchar_t * const rgAccess[] =$/;"	v
+rgBaseType	.\PrintSymbol.cpp	/^const wchar_t * const rgBaseType[] =$/;"	v
+rgCallingConvention	.\PrintSymbol.cpp	/^const wchar_t * const rgCallingConvention[] =$/;"	v
+rgDataKind	.\PrintSymbol.cpp	/^const wchar_t * const rgDataKind[] =$/;"	v
+rgFloatPackageStrings	.\PrintSymbol.cpp	/^const wchar_t * const rgFloatPackageStrings[] =$/;"	v
+rgLanguage	.\PrintSymbol.cpp	/^const wchar_t * const rgLanguage[] =$/;"	v
+rgLocationTypeString	.\PrintSymbol.cpp	/^const wchar_t * const rgLocationTypeString[] =$/;"	v
+rgProcessorStrings	.\PrintSymbol.cpp	/^const wchar_t * const rgProcessorStrings[] =$/;"	v
+rgReg68k	.\regs.cpp	/^const wchar_t * const rgReg68k[] = {$/;"	v
+rgRegAMD64	.\regs.cpp	/^const wchar_t * const rgRegAMD64[] = {$/;"	v
+rgRegAlpha	.\regs.cpp	/^const wchar_t * const rgRegAlpha[] = {$/;"	v
+rgRegArm	.\regs.cpp	/^const wchar_t * const rgRegArm[] = {$/;"	v
+rgRegMips	.\regs.cpp	/^const wchar_t * const rgRegMips[] = {$/;"	v
+rgRegPpc	.\regs.cpp	/^const wchar_t * const rgRegPpc[] = {$/;"	v
+rgRegSh	.\regs.cpp	/^const wchar_t * const rgRegSh[] = {$/;"	v
+rgRegX86	.\regs.cpp	/^const wchar_t * const rgRegX86[] = {$/;"	v
+rgTags	.\PrintSymbol.cpp	/^const wchar_t * const rgTags[] =$/;"	v
+rgUdtKind	.\PrintSymbol.cpp	/^const wchar_t * const rgUdtKind[] =$/;"	v
+right	.\struct\avltree.h	/^	struct _avltree_t* right;		\/\/Âè≥Â≠êÊ†ë$/;"	m	struct:_avltree_t	typeref:struct:_avltree_t::_avltree_t
+right	.\struct\build\x86\mingw\release\include\struct\avltree.h	/^	struct _avltree_t* right;		\/\/Âè≥Â≠êÊ†ë$/;"	m	struct:_avltree_t	typeref:struct:_avltree_t::_avltree_t
+right	.\struct\build\x86\nmake\release\include\struct\avltree.h	/^	struct _avltree_t* right;		\/\/Âè≥Â≠êÊ†ë$/;"	m	struct:_avltree_t	typeref:struct:_avltree_t::_avltree_t
+right	.\struct\segmentree.cpp	/^	struct _segmentree_t *right;$/;"	m	struct:_segmentree_t	typeref:struct:_segmentree_t::_segmentree_t	file:
+rnd	.\struct\rbtree_test.c	/^static struct rnd_state rnd;$/;"	v	typeref:struct:rnd_state	file:
+rol32	.\struct\jhash.h	/^static inline __u32 rol32(__u32 word, unsigned int shift)$/;"	f
+root	.\struct\rbtree_test.c	/^static struct rb_root root = RB_ROOT;$/;"	v	typeref:struct:rb_root	file:
+rotate	.\struct\rbtree_augmented.h	/^	void (*rotate)(struct rb_node *old, struct rb_node *new);$/;"	m	struct:rb_augment_callbacks
+rva	.\pdb.cpp	/^  uint32_t  rva;$/;"	m	struct:_pdb_public	file:
+s	.\struct\strlist.h	/^	const char     *s;$/;"	m	struct:str_node
+s16	.\struct\types.h	/^typedef signed short s16;$/;"	t
+s32	.\struct\types.h	/^typedef signed int s32;$/;"	t
+s64	.\struct\types.h	/^typedef signed long long s64;$/;"	t
+s8	.\struct\types.h	/^typedef signed char s8;$/;"	t
+seg	.\pdb.cpp	/^  uint32_t  seg;$/;"	m	struct:_pdb_public	file:
+segment_t	.\struct\segmentree.cpp	/^}segment_t;$/;"	t	typeref:struct:_segment_t	file:
+segmentree_t	.\struct\segmentree.cpp	/^}segmentree_t;$/;"	t	typeref:struct:_segmentree_t	file:
+set	.\struct\segmentree.cpp	/^	void set(int xx,int yy1,int yy2,bool zzuo)$/;"	f	struct:lines
+setkey	.\struct\btree.c	/^static void setkey(struct btree_geo *geo, unsigned long *node, int n,$/;"	f	file:
+setup_sgl	.\struct\kfifo.c	/^static unsigned int setup_sgl(struct __kfifo *fifo, struct scatterlist *sgl,$/;"	f	file:
+setup_sgl_buf	.\struct\kfifo.c	/^static int setup_sgl_buf(struct scatterlist *sgl, void *buf,$/;"	f	file:
+setval	.\struct\btree.c	/^static void setval(struct btree_geo *geo, unsigned long *node, int n,$/;"	f	file:
+slist_add	.\struct\slist.h	/^static inline bool slist_add(slist_t *head, snode_t *new_node)$/;"	f
+slist_del_all	.\struct\slist.h	/^static inline snode_t *slist_del_all(slist_t *head)$/;"	f
+slist_empty	.\struct\slist.h	/^static inline bool slist_empty(const slist_t *head)$/;"	f
+slist_entry	.\struct\slist.h	72;"	d
+slist_first_entry	.\struct\slist.h	118;"	d
+slist_for_each	.\struct\slist.h	89;"	d
+slist_for_each_entry	.\struct\slist.h	113;"	d
+slist_for_each_safe	.\struct\slist.h	201;"	d
+slist_head	.\struct\slist.h	/^typedef struct slist_head {$/;"	s
+slist_init	.\struct\slist.h	/^static inline void slist_init(slist_t *list)$/;"	f
+slist_next	.\struct\slist.h	/^static inline snode_t *slist_next(snode_t *node)$/;"	f
+slist_next_entry	.\struct\slist.h	123;"	d
+slist_node	.\struct\slist.h	/^typedef struct slist_node {$/;"	s
+slist_remove_head	.\struct\slist.h	/^static inline snode_t* slist_remove_head(slist_t* head)$/;"	f
+slist_t	.\struct\build\x86\mingw\release\include\struct\slist.h	/^}slist_t;$/;"	t	typeref:struct:_slist_t
+slist_t	.\struct\build\x86\nmake\release\include\struct\slist.h	/^}slist_t;$/;"	t	typeref:struct:_slist_t
+slist_t	.\struct\slist.h	/^}slist_t;$/;"	t	typeref:struct:slist_head
+snode	.\struct\example.cpp	/^	snode_t 	snode;$/;"	m	struct:_node_t	file:
+snode_t	.\struct\build\x86\mingw\release\include\struct\slist.h	/^}snode_t; $/;"	t	typeref:struct:_snode_t
+snode_t	.\struct\build\x86\nmake\release\include\struct\slist.h	/^}snode_t; $/;"	t	typeref:struct:_snode_t
+snode_t	.\struct\slist.h	/^}snode_t;$/;"	t	typeref:struct:slist_node
+stack_entry	.\struct\stack.h	10;"	d
+stack_init	.\struct\stack.h	7;"	d
+stack_pop	.\struct\stack.h	9;"	d
+stack_push	.\struct\stack.h	8;"	d
+stack_t	.\struct\stack.h	6;"	d
+str_node	.\struct\strlist.h	/^struct str_node {$/;"	s
+str_node__delete	.\struct\strlist.c	/^static void str_node__delete(struct str_node *self, bool dupstr)$/;"	f	file:
+strlist	.\struct\strlist.h	/^struct strlist {$/;"	s
+strlist__add	.\struct\strlist.c	/^int strlist__add(struct strlist *self, const char *new_entry)$/;"	f
+strlist__delete	.\struct\strlist.c	/^void strlist__delete(struct strlist *self)$/;"	f
+strlist__empty	.\struct\strlist.h	/^static inline bool strlist__empty(const struct strlist *self)$/;"	f
+strlist__entry	.\struct\strlist.c	/^struct str_node *strlist__entry(const struct strlist *slist, unsigned int idx)$/;"	f
+strlist__find	.\struct\strlist.c	/^struct str_node *strlist__find(struct strlist *slist, const char *entry)$/;"	f
+strlist__first	.\struct\strlist.h	/^static inline struct str_node *strlist__first(struct strlist *self)$/;"	f
+strlist__for_each	.\struct\strlist.h	64;"	d
+strlist__for_each_safe	.\struct\strlist.h	74;"	d
+strlist__has_entry	.\struct\strlist.h	/^static inline bool strlist__has_entry(struct strlist *self, const char *entry)$/;"	f
+strlist__load	.\struct\strlist.c	/^int strlist__load(struct strlist *self, const char *filename)$/;"	f
+strlist__new	.\struct\strlist.c	/^struct strlist *strlist__new(bool dupstr, const char *slist)$/;"	f
+strlist__next	.\struct\strlist.h	/^static inline struct str_node *strlist__next(struct str_node *sn)$/;"	f
+strlist__node_cmp	.\struct\strlist.c	/^static int strlist__node_cmp(struct rb_node *rb_node, const void *entry)$/;"	f	file:
+strlist__node_delete	.\struct\strlist.c	/^void strlist__node_delete(struct rblist *rblist, struct rb_node *rb_node)$/;"	f	file:
+strlist__node_new	.\struct\strlist.c	/^struct rb_node *strlist__node_new(struct rblist *rblist, const void *entry)$/;"	f	file:
+strlist__nr_entries	.\struct\strlist.h	/^static inline unsigned int strlist__nr_entries(const struct strlist *self)$/;"	f
+strlist__parse_list	.\struct\strlist.c	/^int strlist__parse_list(struct strlist *self, const char *s)$/;"	f
+strlist__parse_list_entry	.\struct\strlist.c	/^static int strlist__parse_list_entry(struct strlist *self, const char *s)$/;"	f	file:
+strlist__remove	.\struct\strlist.c	/^void strlist__remove(struct strlist *slist, struct str_node *snode)$/;"	f
+sym_tag	.\pdb.cpp	/^  uint32_t  sym_tag;$/;"	m	struct:_pdb_public	file:
+table	.\struct\fifo.h	/^  void** table;$/;"	m	struct:_fifo
+table	.\struct\rfifo.c	/^	void ** table;$/;"	m	struct:_rfifo_t	file:
+tail	.\struct\fifo.h	/^  volatile unsigned int tail;$/;"	m	struct:_fifo
+test_dlist	.\struct\example.cpp	/^void test_dlist()$/;"	f
+test_hashtable	.\struct\example.cpp	/^void test_hashtable()$/;"	f
+test_node	.\struct\rbtree_test.c	/^struct test_node {$/;"	s	file:
+test_rbtree	.\struct\example.cpp	/^void test_rbtree()$/;"	f
+test_slist	.\struct\example.cpp	/^void test_slist()$/;"	f
+to_klist_node	.\struct\klist.c	/^static struct klist_node *to_klist_node(struct list_head *n)$/;"	f	file:
+true	.\struct\rbtree.c	31;"	d	file:
+u16	.\struct\types.h	/^typedef unsigned short u16;$/;"	t
+u32	.\struct\types.h	/^typedef unsigned int u32;$/;"	t
+u64	.\struct\types.h	/^typedef unsigned long long u64;$/;"	t
+u8	.\struct\types.h	/^typedef unsigned char u8;$/;"	t
+uint16_t	.\struct\typedef.h	/^typedef unsigned short uint16_t;$/;"	t
+uint32_t	.\struct\typedef.h	/^typedef unsigned int uint32_t;$/;"	t
+uint64_t	.\struct\typedef.h	/^typedef unsigned long long uint64_t;$/;"	t
+uint8_t	.\struct\typedef.h	/^typedef unsigned char uint8_t;$/;"	t
+uint_fast16_t	.\struct\typedef.h	/^typedef unsigned int uint_fast16_t;$/;"	t
+uint_fast32_t	.\struct\typedef.h	/^typedef unsigned int uint_fast32_t;$/;"	t
+uint_fast64_t	.\struct\typedef.h	/^typedef unsigned long long uint_fast64_t;$/;"	t
+uint_fast8_t	.\struct\typedef.h	/^typedef unsigned char uint_fast8_t;$/;"	t
+uint_least16_t	.\struct\typedef.h	/^typedef unsigned short uint_least16_t;$/;"	t
+uint_least32_t	.\struct\typedef.h	/^typedef unsigned int uint_least32_t;$/;"	t
+uint_least64_t	.\struct\typedef.h	/^typedef unsigned long long uint_least64_t;$/;"	t
+uint_least8_t	.\struct\typedef.h	/^typedef unsigned char uint_least8_t;$/;"	t
+uintmax_t	.\struct\typedef.h	/^typedef unsigned long long uintmax_t;$/;"	t
+val	.\struct\rbtree_test.c	/^	u32 val;$/;"	m	struct:test_node	file:
+value	.\struct\example.cpp	/^	int 		value;$/;"	m	struct:_node_t	file:
+visitor128	.\struct\btree.c	/^EXPORT_SYMBOL_GPL(visitor128);$/;"	v
+visitor128	.\struct\btree.c	/^void visitor128(void *elem, unsigned long opaque, unsigned long *__key,$/;"	f
+visitor32	.\struct\btree.c	/^EXPORT_SYMBOL_GPL(visitor32);$/;"	v
+visitor32	.\struct\btree.c	/^void visitor32(void *elem, unsigned long opaque, unsigned long *__key,$/;"	f
+visitor64	.\struct\btree.c	/^EXPORT_SYMBOL_GPL(visitor64);$/;"	v
+visitor64	.\struct\btree.c	/^void visitor64(void *elem, unsigned long opaque, unsigned long *__key,$/;"	f
+visitorl	.\struct\btree.c	/^EXPORT_SYMBOL_GPL(visitorl);$/;"	v
+visitorl	.\struct\btree.c	/^void visitorl(void *elem, unsigned long opaque, unsigned long *key,$/;"	f
+win_cmpxchg	.\struct\cmpxchg_x64.asm	/^win_cmpxchg PROC $/;"	l
+win_cmpxchg	.\struct\cmpxchg_x86.asm	/^win_cmpxchg PROC StdCall Destination, Exchange, Comperand$/;"	l
+win_xchg	.\struct\cmpxchg_x64.asm	/^win_xchg PROC$/;"	l
+win_xchg	.\struct\cmpxchg_x86.asm	/^win_xchg PROC StdCall Target, Value$/;"	l
+wmain	.\dia2dump.cpp	/^int wmain(int argc, wchar_t *argv[])$/;"	f
+woken	.\struct\klist.c	/^	int woken;$/;"	m	struct:klist_waiter	file:
+wszRegName	.\regs.h	/^    const wchar_t* wszRegName;$/;"	m	struct:MapIa64Reg
+x	.\struct\jhash.h	/^struct __una_u32 { u32 x; } __packed;$/;"	m	struct:__una_u32
+x	.\struct\segmentree.cpp	/^	int x,y1,y2;$/;"	m	struct:_segment_t	file:
+xchg	.\struct\cmpxchg.h	81;"	d
+y1	.\struct\segmentree.cpp	/^	int x,y1,y2;$/;"	m	struct:_segment_t	file:
+y2	.\struct\segmentree.cpp	/^	int x,y1,y2;$/;"	m	struct:_segment_t	file:
+zuo	.\struct\segmentree.cpp	/^	bool zuo;$/;"	m	struct:_segment_t	file:

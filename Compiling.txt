@@ -1,0 +1,16 @@
+To compile, you will need a compiled copy of dialib, and the DIA SDK v2.0 
+supplied with Visual Studio.NET.
+
+You will also require a copy of Visual Studio.NET. It may be possible to 
+compile with earlier versions, but this has not been investigated.
+
+You will also have to adjust the settings in the project for your 
+particular configuration:
+
+* C/C++>General>"Additional Include Directories" must be set to point to:
+  The DIA SDK's include directory.
+  Dialib's include directory.
+
+* Linker>General>"Additional Library Directories" must be set to:
+  The DIA SDK's lib directory.
+  Dialib's lib directory.
